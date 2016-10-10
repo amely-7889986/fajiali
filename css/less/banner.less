@@ -1,0 +1,68 @@
+#l-banner-index{
+  width: 100%;
+  height: auto;
+}
+.banner{
+  overflow: hidden;
+  margin-bottom: 12px;
+  img{
+    //width:100%;
+  }
+  .ck-slide{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+  }
+  .ctrl-slide{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    background: rgba(44, 52, 68,.6);;
+    color: #fff;
+    z-index: 90;
+    font-family: '宋体';
+    font-size: 34px;
+    text-align: center;
+    opacity: 1 !important;
+  }
+  .ck-prev{
+    left: 200px;
+  }
+  .ck-next{
+    right: 200px;
+  }
+  .ck-slidebox{
+    position: relative;
+    bottom: 28px;
+    height: 20px;
+    text-align: center;
+  }
+  .slideWrap{
+  	margin: 0 auto;
+  	display: block;
+  	height: 4px;
+  	width: 145px;
+  }
+  .dot-wrap{
+    li{
+      float: left;
+      background:#fff;
+      color: #fff;
+      width: 24px;
+      height: 4px;
+      line-height: 20px;
+      margin:0 0 0 5px;
+      cursor: pointer;
+      opacity: 0.4;
+      text-indent: 9999px;
+    }
+    li.current{
+      opacity: 1;
+    }
+  }
+}
