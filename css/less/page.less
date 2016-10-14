@@ -1,0 +1,148 @@
+.page{
+	display: block;
+	overflow: hidden;
+	padding: 0 12px;
+	.box-shadow;
+	.bg-bai;
+}
+.pagetab{
+	display: block;
+	border-bottom: 1px solid #acacac;
+	overflow: hidden;
+	li{
+		display: block;
+		float: left;
+		height: 52px;
+		a{
+			display: inline-block;
+			padding: 16px 12px;
+			font-size: 18px;
+			color: #313131;
+		}
+		a:hover,a.active,a:active{
+			border-bottom: 2px solid #e52516;
+			color: #e52516;
+		}
+	}
+}
+.pagelist{
+	display: block;
+	overflow: hidden;
+	padding-bottom: 12px;
+}
+.pagebox{
+	display: block;
+	padding: 24px 8px 24px 0;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	.pic{
+		width: 178px;
+		height: 124px;
+		overflow: hidden;
+		margin-right: 24px;
+		img{
+			width: 100%;
+		}
+	}
+	.info{
+		display: block;
+		overflow: hidden;
+		.title{
+			display: block;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			font-size: 18px;
+			color: #313131;
+			margin-bottom: 12px;
+		}
+		p.detail{
+			color: #93999f;
+			display: block;
+			overflow: hidden;
+			-webkit-line-clamp: 3;
+			line-height: 24px;
+			height: 70px;
+			.text-ellip;
+		}
+		p.text{
+			color: #93999f;
+			display: block;
+			overflow: hidden;
+			-webkit-line-clamp: 2;
+			line-height: 24px;
+			height: 48px;
+			.text-ellip;
+		}
+		.data{
+			color: #93999f;
+			margin-top: 12px;
+		}
+	}
+}
+.pagenum{
+	display: block;
+	margin: 8px 0 24px 0;
+	text-align: center;
+	color: #313131;
+	a{
+		display: inline-block;
+		padding: 6px 8px;
+	}
+	a:active,a.active,a:hover{
+		background: #07245c;
+		color: #fff;
+	}
+}
+.sidelist{
+	display: block;
+	overflow: hidden;
+	.tit{
+		display: block;
+		border-bottom: 1px solid #acacac;
+		overflow: hidden;
+		height: 52px;
+		font-size: 18px;
+		line-height: 52px;
+		padding-left: 8px;
+	}
+	.list{
+		display: block;
+		overflow: hidden;
+		li{
+			display: block;
+			overflow: hidden;
+			padding: 26px 0 16px 0;
+			border-bottom: 1px solid #ddd;
+			white-space: nowrap;
+			.text-ellip;
+			a.hotlist{
+				font-size: 14px;
+				color: #313131;
+			}
+			a:hover.hotlist{
+				text-decoration: underline;
+			}
+			>p{
+				font-size: 12px;
+				color: #93999f;
+				margin-top: 12px;
+			}
+		}
+	}
+	.vane{
+		display: block;
+		overflow: hidden;
+		a{
+			display: inline-block;
+			padding: 12px 8px;
+			span.text{
+				color: #4d555d;
+			}
+			span.num{
+				color: #b5b9bc;
+				margin-left: 8px;
+			}
+		}
+	}
+}
