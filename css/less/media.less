@@ -23,7 +23,152 @@
 		height: 32px;
 		line-height: 32px;
 		color: #313131;
-		font-size: 12px;
+		.font12;
+	}
+	.arrowdown{
 		background: url(../../images/ic-arrowdown.png) 580px center no-repeat;
 	}
+	.arrowup{
+		background: url(../../images/ic-arrowup.png) 580px center no-repeat;
+		
+	}
+	.channel{
+		display: block;
+		overflow: hidden;
+		height: 28px;
+		line-height: 28px;
+		li{
+			display: block;
+			float: left;
+			.col-hei;
+			padding: 0 8px;
+			font-size: 12px;
+			a:hover,a:active,a.active{
+				.col-slan;
+				text-decoration: underline;
+			}
+		}
+	}
+}
+.filter{
+	display: block;
+	overflow: hidden;
+	li{
+		display: block;
+		>a{
+			display: inline-block;
+			.col-hei;
+			float: left;
+			padding: 10px 16px 10px 8px;
+		}
+		.current{
+			background: url(../../images/ic-filter.png) 68px center no-repeat;
+			color: #07245c;
+		}
+	}
+}
+.vediolist{
+	display: block;
+	overflow: hidden;
+	padding: 0 0 14px 0;
+}
+.vediobox{
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: 25%;
+	padding: 0 0.5%;
+	position: relative;
+	box-sizing: border-box;
+	height: 270px;
+	.vedio-inner{
+		width: 256px;
+		height: 262px;
+		display: block;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
+	.vediopic{
+		width: 256px;
+		height: 178px;
+		display: block;
+		overflow: hidden;
+		img{
+			width: 100%;
+		}
+	}
+	.sec{
+		position: absolute;
+		bottom: 8px;
+		display: block;
+		color: #93999f;
+		overflow: hidden;
+		width: 254px;
+		height: 16px;
+		padding: 8px 0 10px 2px;
+		.font12;
+		.bg-bai;
+		span{
+			height: 16px;
+			line-height: 16px;
+			width: 33%;
+		}
+		i{
+			display: block;
+			width: 16px;
+			height: 16px;
+			overflow: hidden;
+			float: left;
+			margin-right: 2px;
+		}
+		.ic-eye{
+			background: url(../../images/eye.png) center center no-repeat;
+		}
+		.ic-comment{
+			background: url(../../images/comment.png) center center no-repeat;
+		}
+		.ic-time{
+			background: url(../../images/time.png) center center no-repeat;
+		}
+	}
+	.mediainfo{
+		display: block;
+		position: absolute;
+		overflow: hidden;
+		width: 256px;
+		padding: 8px 8px 0 8px;
+	    box-sizing: border-box;
+	    transition: top .5s;
+	    top: 178px;
+	    height: 84px;
+		.font12;
+		.bg-bai;
+		.title{
+			.col-hei;
+			line-height: 18px;
+			height: 36px;
+			overflow: hidden;
+		}
+		p.detail{
+			margin: 4px 0;
+			color: #93999f;
+			line-height: 18px;
+			height: 36px;
+			overflow: hidden;
+		}
+	}
+	a:hover{
+		.mediainfo{
+			top: 144px;
+		}
+	}
+}
+.channelbox{
+	display: block;
+	overflow: hidden;
+	.mtb14;
+}
+.box-lg{
+	padding: 14px 20px 20px 20px;
+	.bg-bai;
 }
