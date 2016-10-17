@@ -20,10 +20,9 @@ $(document).ready(function() {
 });
 
 //视频列表上滑
-// $(document).ready(function(){
-// 	$(".vediobox").hover(function(){
-// 		$(".mediainfo").css({
-// 			top: '128px',
-// 		});(500);
-// 	});
-// });
+$(document).ready(function(){
+	$("#vediomask").hide();
+	$(".vedioli").hover(function(){
+		$("#vediomask",this).slideToggle(500);
+	});
+});
