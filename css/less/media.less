@@ -177,12 +177,26 @@
 		margin-left: 8px;
 		color: #aaa;
 	}
+	.actab{
+		display: block;
+		overflow: hidden;
+		a{
+			display: inline-block;
+			margin-left: 8px;
+			color: #aaa;
+		}
+		a.active,a:active,a:hover{
+			color: #203671;
+			text-decoration: underline;
+		}
+	}
 }
 .channelbox-lg{
 	display: block;
 	padding: 14px 20px 20px 20px;
 	.bg-bai;
 	overflow: hidden;
+	.box-shadow;
 	.box-banner{
 		display: block;
 		width: 558px;
@@ -211,70 +225,152 @@
 			.ov-text;
 		}
 	}
-	.boxlist{
+}
+.channelbox-sm{
+	display: block;
+	overflow: hidden;
+	padding: 14px 20px 20px 20px;
+	.mtb14;
+	.bg-bai;
+	.box-shadow;
+}
+.boxlist{
+	display: block;
+	overflow: hidden;
+	.vedioli{
 		display: block;
+		width: 230px;
 		overflow: hidden;
-		.vedioli{
+		margin-left: 20px;
+		float: left;
+		position: relative;
+		margin-bottom: 12px;
+		>a{
+			width: 230px;
+			height: 160px;
+			display: inline-block;
+			overflow: hidden;
+		}
+		.li-pic{
 			display: block;
 			width: 230px;
+			height: 160px;
 			overflow: hidden;
-			margin-left: 20px;
-			float: left;
-			position: relative;
-			margin-bottom: 12px;
-			>a{
-				width: 230px;
-				height: 160px;
-				display: inline-block;
-				overflow: hidden;
+			>img{
+				width: 100%;
 			}
-			.li-pic{
-				display: block;
-				width: 230px;
-				height: 160px;
+		}
+		.boxtxt{
+			width: 230px;
+			height: 160px;
+			
+		}
+		.vediomask{
+			position:absolute;
+			left:0px;
+			bottom: 30px;
+			display: none;
+			width: 230px;
+			height: 160px;
+			float: left;
+			background: rgba(0, 0, 0, 0.5);
+			color: #f0f0f0;
+			>img{
+				position: absolute;
+				bottom: 56px;
+				left: 91px;
+			}
+			.comment{
+				position: absolute;
+				left: 4px;
+				bottom: 8px;
+				font-size: 12px;
+				span{
+					margin-right: 12px;
+				}
+			}
+		}
+		p.litit{
+			width: 230px;
+			height: 30px;
+			line-height: 30px;
+			overflow: hidden;
+			.ov-text;
+			white-space: nowrap;
+		}
+	}
+	.vedioitem{
+		display: block;
+		overflow: hidden;
+		width: 256px;
+		height: 178px;
+		float: left;
+		margin-right: 12px;
+		.iteminner{
+			display: block;
+			overflow: hidden;
+			position: relative;
+			.item-pic{
+				width: 256px;
+				height: 178px;
 				overflow: hidden;
-				>img{
+				img{
 					width: 100%;
 				}
 			}
-			.boxtxt{
-				width: 230px;
-				height: 160px;
-				
-			}
-			.vediomask{
-				position:absolute;
-				left:0px;
-				bottom: 30px;
-				display: none;
-				width: 230px;
-				height: 160px;
-				float: left;
-				background: rgba(0, 0, 0, 0.5);
-				color: #f0f0f0;
-				>img{
-					position: absolute;
-					bottom: 56px;
-					left: 91px;
+			.iteminfo{
+				position: absolute;
+				top: 138px;
+				display: block;
+				padding: 4px 12px;
+				height: 178px;
+				color: #fff;
+				FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#fff,endColorStr=000);
+				background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+				background:-moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+				background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8));
+				transition: top .5s;
+				h3.title{
+					height: 40px;
+					line-height: 40px;
+					width: 256px;
+					white-space: nowrap;
+					overflow: hidden;
+					.ov-text;
+					margin-bottom: 4px;
 				}
-				.comment{
-					position: absolute;
-					left: 4px;
-					bottom: 8px;
-					font-size: 12px;
+				.info{
+					line-height: 28px;
 					span{
 						margin-right: 12px;
 					}
 				}
-			}
-			p.litit{
-				width: 230px;
-				height: 30px;
-				line-height: 30px;
-				overflow: hidden;
-				.ov-text;
-				white-space: nowrap;
+				button.btn{
+					padding: 8px 12px;
+					border-radius: 4px;
+					background: #3399ee;
+					border: none;
+					color: #fff;
+					margin-top: 8px;
+				}
 			}
 		}
+		>a:hover{
+			.iteminfo{
+				top: 0px;
+			}
+		}
+	}
+}
+.sm-banner{
+	display: block;
+	width: 1100px;
+	height: 100px;
+	overflow: hidden;
+	box-sizing: border-box;
+	.box-shadow;
+	margin-bottom: 14px;
+	img{
+		width: 100%;
 	}
 }
