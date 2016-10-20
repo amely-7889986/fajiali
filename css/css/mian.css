@@ -1496,6 +1496,9 @@ input:-ms-input-placeholder {
 .fl {
   float: left;
 }
+.mar3 {
+  margin-right: -3px;
+}
 .border {
   border: 1px solid #bdbdbd;
 }
@@ -1562,6 +1565,7 @@ input:-ms-input-placeholder {
   padding-right: 10px;
   float: left;
   font-size: 14px;
+  margin-right: -3px;
 }
 .register .login-box .register-box .register-input {
   height: 26px;
@@ -1573,6 +1577,7 @@ input:-ms-input-placeholder {
   height: 26px;
   width: 133px;
   border: 1px solid #bdbdbd;
+  margin-left: 3px;
 }
 .register .login-box .register-box .get-code {
   height: 30px;
@@ -1676,6 +1681,7 @@ input:-ms-input-placeholder {
   padding-right: 10px;
   float: left;
   font-size: 14px;
+  margin-right: -3px;
 }
 .login .login-box .register-box .register-input {
   height: 26px;
@@ -1687,6 +1693,7 @@ input:-ms-input-placeholder {
   height: 26px;
   width: 133px;
   border: 1px solid #bdbdbd;
+  margin-left: 3px;
 }
 .login .login-box .register-box .get-code {
   height: 30px;
