@@ -434,6 +434,9 @@ input:-ms-input-placeholder {
 .h420 {
   height: 420px;
 }
+.h258 {
+  height: 258px;
+}
 .pd4 {
   padding: 4px 0;
 }
@@ -675,6 +678,36 @@ input:-ms-input-placeholder {
 .bannerlay img {
   height: 98px;
 }
+.search-banner {
+  position: absolute;
+  left: 50%;
+  margin-left: -372px;
+  bottom: 74px;
+  height: 32px;
+}
+.search-banner input {
+  border: 4px solid #3e5184;
+  height: 20px;
+  line-height: 20px;
+  width: 240px;
+  outline: none;
+  float: left;
+  padding-left: 4px;
+}
+.search-banner .btn-searchbanner {
+  display: inline-block;
+  width: 97px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 10px;
+}
+.color-bai {
+  color: #fff;
+}
+.color-blue {
+  color: #3e5184;
+}
 .news {
   position: relative;
   top: -420px;
@@ -758,6 +791,20 @@ input:-ms-input-placeholder {
   display: block;
   width: 356px;
   float: left;
+}
+.column .col-class {
+  display: block;
+  width: 342px;
+  float: left;
+  margin-right: 27px;
+}
+.column .col-class .btn-class {
+  width: 318px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  margin: 9px 0;
+  border-radius: 3px;
 }
 .column .col-lg {
   display: block;
@@ -1001,6 +1048,30 @@ input:-ms-input-placeholder {
 }
 .officelist li .notes span.num {
   float: right;
+}
+.questionlist,
+.arealist {
+  padding: 12px 4px;
+}
+.questionlist a:hover,
+.arealist a:hover,
+.questionlist a:active,
+.arealist a:active {
+  text-decoration: underline;
+  color: #203671;
+}
+.questionlist a {
+  display: inline-block;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+.arealist li {
+  padding-bottom: 18px;
+}
+.arealist li a {
+  padding: 0 5px;
 }
 .footer {
   display: block;
