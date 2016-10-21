@@ -5,6 +5,49 @@
 	a.lawyerbox{
 		display: block;
 		overflow: hidden;
+		float: left;
 		width: 20%;
+		box-sizing: border-box;
+		padding-bottom: 12px;
+		margin-bottom: 8px;
+		.box{
+			.bg-bai;
+			.mediashadow;
+			display: block;
+			overflow: hidden;
+			width: 82%;
+			margin: 0 auto;
+			padding: 4px 1%;
+			height: 270px;
+		}
+		.pic{
+			display: block;
+			overflow: hidden;
+			width: 100%;
+			height: 208px;
+			margin: 0 auto;
+			transition: width .5s linear,transform .5s;
+			img{
+				width: 100%;
+			}
+		}
+		.info{
+			text-align: center;
+			display: block;
+			overflow: hidden;
+			margin-top: 8px;
+			padding: 0 4px;
+			line-height: 16px;
+			p.name{
+				.col-dblue;
+				.font18;
+				margin-bottom: 4px;
+			}
+		}
+	}
+	a:hover{
+		.pic{
+			width: 92%;
+		}
 	}
 }

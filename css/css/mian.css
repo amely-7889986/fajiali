@@ -503,6 +503,9 @@ input:-ms-input-placeholder {
 .mb4 {
   margin-bottom: 4px;
 }
+.mb8 {
+  margin-bottom: 8px;
+}
 .mb10 {
   margin-bottom: 10px;
 }
@@ -1171,7 +1174,8 @@ input:-ms-input-placeholder {
   text-overflow: ellipsis;
   font-size: 18px;
   color: #313131;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  line-height: 24px;
 }
 .pagebox .info p.detail {
   color: #93999f;
@@ -1789,6 +1793,106 @@ input:-ms-input-placeholder {
 .sm-banner img {
   width: 100%;
 }
+.mediainner {
+  display: block;
+  overflow: hidden;
+}
+.mediatit {
+  display: block;
+  overflow: hidden;
+  line-height: 24px;
+  font-size: 18px;
+  margin: 18px 0;
+  font-weight: 600;
+}
+.mediaplay {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+.mediaplay video {
+  display: block;
+  overflow: hidden;
+  width: 740px;
+  height: 460px;
+}
+.mediaplay .videoside {
+  display: block;
+  overflow: hidden;
+  width: 360px;
+  height: 460px;
+  background: #14191e;
+}
+.mediaplay .videoside .sidebox {
+  display: block;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.mediaplay .videoside .sidebox .litit {
+  font-size: 18px;
+  color: #aaa;
+  margin: 10px 0 12px;
+}
+.mediaplay .videoside .sidebox .libox {
+  display: block;
+  overflow: hidden;
+  width: 320px;
+  height: 86px;
+  margin-bottom: 10px;
+  background: #4c4c4c;
+}
+.mediaplay .videoside .sidebox .libox .pic {
+  display: block;
+  width: 109px;
+  height: 76px;
+  overflow: hidden;
+  float: left;
+  margin: 5px;
+}
+.mediaplay .videoside .sidebox .libox .pic img {
+  width: 100%;
+}
+.mediaplay .videoside .sidebox .libox .info {
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 190px;
+  height: 76px;
+  margin: 5px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 24px;
+}
+.mediaplay .videoside .sidebox .libox .info .tit {
+  height: 50px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.mediaplay .videoside .sidebox .libox .info .sec span {
+  margin-right: 24px;
+  line-height: 16px;
+}
+.mediaplay .videoside .sidebox .libox .info .sec i {
+  display: block;
+  overflow: hidden;
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-right: 4px;
+}
+.mediaplay .videoside .sidebox .libox .info .sec .ic-eye {
+  background: url(../../images/eyebai.png) center center no-repeat;
+}
+.mediaplay .videoside .sidebox .libox .info .sec .ic-comment {
+  background: url(../../images/commentbai.png) center center no-repeat;
+}
+.recommend {
+  display: block;
+  overflow: hidden;
+}
+.recommend .tit {
+  margin: 24px 0;
+}
 .lawyer {
   display: block;
   overflow: hidden;
@@ -1797,5 +1901,46 @@ input:-ms-input-placeholder {
 .lawyer a.lawyerbox {
   display: block;
   overflow: hidden;
+  float: left;
   width: 20%;
+  box-sizing: border-box;
+  padding-bottom: 12px;
+  margin-bottom: 8px;
+}
+.lawyer a.lawyerbox .box {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: block;
+  overflow: hidden;
+  width: 82%;
+  margin: 0 auto;
+  padding: 4px 1%;
+  height: 270px;
+}
+.lawyer a.lawyerbox .pic {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 208px;
+  margin: 0 auto;
+  transition: width .5s linear,transform .5s;
+}
+.lawyer a.lawyerbox .pic img {
+  width: 100%;
+}
+.lawyer a.lawyerbox .info {
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  margin-top: 8px;
+  padding: 0 4px;
+  line-height: 16px;
+}
+.lawyer a.lawyerbox .info p.name {
+  color: #203671;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.lawyer a:hover .pic {
+  width: 92%;
 }
