@@ -437,6 +437,9 @@ input:-ms-input-placeholder {
 .h258 {
   height: 258px;
 }
+.w770 {
+  width: 770px;
+}
 .pd4 {
   padding: 4px 0;
 }
@@ -681,7 +684,7 @@ input:-ms-input-placeholder {
 .search-banner {
   position: absolute;
   left: 50%;
-  margin-left: -372px;
+  margin-left: -25%;
   bottom: 74px;
   height: 32px;
 }
@@ -787,6 +790,9 @@ input:-ms-input-placeholder {
   float: left;
   margin-right: 16px;
 }
+.column .col-big770 {
+  width: 770px;
+}
 .column .col-small {
   display: block;
   width: 356px;
@@ -794,16 +800,16 @@ input:-ms-input-placeholder {
 }
 .column .col-class {
   display: block;
-  width: 342px;
+  width: 300px;
   float: left;
   margin-right: 27px;
 }
 .column .col-class .btn-class {
-  width: 318px;
+  width: 277px;
   height: 42px;
   line-height: 42px;
   text-align: center;
-  margin: 9px 0;
+  margin: 0 0 10px 0;
   border-radius: 3px;
 }
 .column .col-lg {
@@ -874,6 +880,9 @@ input:-ms-input-placeholder {
   height: 14px;
   margin: 0 2px;
   display: inline-block;
+}
+.lawyerlist-find li {
+  margin: 12px 11px 31px 3px;
 }
 .dynamic {
   display: block;
@@ -1049,6 +1058,9 @@ input:-ms-input-placeholder {
 .officelist li .notes span.num {
   float: right;
 }
+.officelist-find li {
+  margin: 0 13px;
+}
 .questionlist,
 .arealist {
   padding: 12px 4px;
@@ -1062,16 +1074,16 @@ input:-ms-input-placeholder {
 }
 .questionlist a {
   display: inline-block;
-  margin-right: 16px;
-  margin-bottom: 10px;
+  margin-right: 14px;
+  margin-bottom: 17px;
   font-size: 14px;
   color: #333;
 }
 .arealist li {
-  padding-bottom: 18px;
+  padding-bottom: 17px;
 }
 .arealist li a {
-  padding: 0 5px;
+  padding: 0 1px;
 }
 .footer {
   display: block;
