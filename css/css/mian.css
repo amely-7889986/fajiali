@@ -2027,6 +2027,23 @@ input:-ms-input-placeholder {
 .lawyer a:hover .pic {
   width: 92%;
 }
+.user {
+  display: block;
+  overflow: hidden;
+  background: url(../../update/userbg.png) center top no-repeat;
+  background-size: 100%;
+  background-color: #fff;
+}
+.userhead {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+}
+.userhead .usericon {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
 .h527 {
   height: 527px;
 }
