@@ -725,7 +725,7 @@ input:-ms-input-placeholder {
   width: 1040px;
   height: 307px;
   padding: 30px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.7);
 }
 .user-pic {
   width: 179px;
@@ -1163,6 +1163,8 @@ input:-ms-input-placeholder {
   padding: 0 8px;
   height: 25px;
   margin-right: 22px;
+  line-height: 25px;
+  font-size: 12px;
 }
 .footer {
   display: block;
