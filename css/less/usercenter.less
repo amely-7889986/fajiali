@@ -4,12 +4,16 @@
 	background: url(../../update/userbg.png) center top no-repeat;
 	background-size: 100%;
 	.bg-bai;
-	a.clickbtn{
+	.clickbtn{
 		display: inline-block;
 		padding: 4px 8px;
 		.bg-dblue;
 		.col-bai;
 		border-radius: 4px;
+	}
+	>a:hover{
+		color: #fff !important;
+		text-decoration: none !important;
 	}
 }
 .userhead{
@@ -59,6 +63,202 @@
 				width: 800px;
 				height: 20px;
 			}
+		}
+	}
+}
+.usertable{
+	display: block;
+	overflow: hidden;
+	.mtb24;
+	.bg-bai;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+	.userside{
+		display: block;
+		overflow: hidden;
+		.l-left;
+		width: 210px;
+		height: 100%;
+		box-sizing: border-box;
+		border-right: 1px solid #ddd;
+		background-color: #eeeff1;
+		a{
+			display: block;
+			width: 210px;
+			height: 46px;
+			line-height: 46px;
+			border-bottom: 1px solid #dedede;
+			.font16;
+		}
+		i.icon{
+			width: 24px;
+			height: 24px;
+			display: block;
+			overflow: hidden;
+			.l-left;
+			margin: 11px 12px 11px 16px;
+		}
+		i.ic-order{
+			background: url(../../images/ic-order.png) center center no-repeat;
+		}
+		i.ic-coope{
+			background: url(../../images/ic-coope.png) center center no-repeat;
+		}
+		i.ic-client{
+			background: url(../../images/ic-client.png) center center no-repeat;
+		}
+		i.ic-pocket{
+			background: url(../../images/ic-pocket.png) center center no-repeat;
+		}
+		i.ic-topic{
+			background: url(../../images/ic-topic.png) center center no-repeat;
+		}
+		i.ic-article{
+			background: url(../../images/ic-article.png) center center no-repeat;
+		}
+		i.ic-message{
+			background: url(../../images/ic-message.png) center center no-repeat;
+		}
+		i.ic-contract{
+			background: url(../../images/ic-contract.png) center center no-repeat;
+		}
+		i.ic-set{
+			background: url(../../images/ic-set.png) center center no-repeat;
+		}
+		i.ic-system{
+			background: url(../../images/ic-system.png) center center no-repeat;
+		}
+		a:hover,a:active,a.active,{
+			.bg-dblue;
+			color: #fff;
+			i.ic-order{
+				background: url(../../images/ic-order-sel.png) center center no-repeat;
+			}
+			i.ic-coope{
+				background: url(../../images/ic-coope-sel.png) center center no-repeat;
+			}
+			i.ic-client{
+				background: url(../../images/ic-client-sel.png) center center no-repeat;
+			}
+			i.ic-pocket{
+				background: url(../../images/ic-pocket-sel.png) center center no-repeat;
+			}
+			i.ic-topic{
+				background: url(../../images/ic-topic-sel.png) center center no-repeat;
+			}
+			i.ic-article{
+				background: url(../../images/ic-article-sel.png) center center no-repeat;
+			}
+			i.ic-message{
+				background: url(../../images/ic-message-sel.png) center center no-repeat;
+			}
+			i.ic-contract{
+				background: url(../../images/ic-contract-sel.png) center center no-repeat;
+			}
+			i.ic-set{
+				background: url(../../images/ic-set-sel.png) center center no-repeat;
+			}
+			i.ic-system{
+				background: url(../../images/ic-system-sel.png) center center no-repeat;
+			}
+		}
+	}
+	.userbox{
+		display: block;
+		overflow: hidden;
+		.l-left;
+		.bg-bai;
+		width: 890px;
+	}
+	.usertab{
+		display: block;
+		overflow: hidden;
+		border-bottom: 1px solid #ddd;
+		box-sizing: border-box;
+		li{
+			margin: 0 12px;
+			.font16;
+			.l-left;
+			a{
+				display: inline-block;
+				padding: 13px 4px;
+				box-sizing: border-box;
+			}
+		}
+		a.active,a:hover,a:active{
+			border-bottom: 4px solid #203671;
+			.col-dblue;
+		}
+		.point{
+			position: relative;
+			top: -10px;
+			left: -6px;
+			border-radius: 50%;
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			text-align: center;
+			line-height: 16px;
+			.bg-red;
+			.font12;
+			.col-bai;
+		}
+	}
+	.usersearch{
+		display: block;
+		overflow: hidden;
+		padding: 8px 12px;
+		line-height: 32px;
+		input{
+			border-radius: 4px;
+			border: 1px solid #bfbfbf;
+			box-sizing: border-box;
+			height: 32px;
+		}
+		.search{
+			>input{
+				width: 180px;
+			}
+			a.submit{
+				display: inline-block;
+				.bg-dblue;
+				padding: 0 18px;
+				margin-left: 4px;
+				border-radius: 4px;
+				.col-bai;
+			}
+		}
+		.state{
+			margin: 0 24px;
+			>select{
+				margin-left: 4px;
+				height: 32px;
+				width: 140px;
+				float: left;
+				border: 1px solid #ddd;
+				color: #aaa;
+			}
+		}
+		.time{
+			>input{
+				width: 100px;
+				float: left;
+				margin: 0 4px;
+			}
+		}
+	}
+	table.table{
+		padding: 8px 12px;
+		td{
+			padding: 8px 0;
+			border-bottom: 1px solid #ddd;
+			line-height: 18px;
+			>a:hover{
+				text-decoration: underline;
+				.col-dblue;
+			}
+		}
+		tr:hover{
+			background: #e6e6e6;
 		}
 	}
 }
