@@ -1428,6 +1428,70 @@ input:-ms-input-placeholder {
   padding: 12px 0 24px 0;
   color: #313131;
 }
+.sidebar {
+  width: 250px;
+  height: 400px;
+  background: #fff;
+  float: left;
+  margin-right: 27px;
+}
+.sidebar li a {
+  display: block;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+.sidebar a.active,
+.sidebar a:hover,
+.sidebar a:active {
+  background: #07245c;
+  color: #fff;
+}
+.column-r {
+  width: 823px;
+  height: 400px;
+  background: #fff;
+  float: left;
+}
+.column-r .title {
+  font-size: 18px;
+  margin: 30px 0;
+  text-align: center;
+}
+.column-r .liucheng-info {
+  margin: 0 auto;
+  text-align: center;
+  color: #93999f;
+}
+.column-r .liucheng-info span {
+  display: inline-block;
+  text-align: center;
+  padding: 0 10px;
+  font-size: 12px;
+}
+.column-r .liucheng-info span i {
+  display: block;
+  height: 16px;
+  width: 16px;
+  float: left;
+  padding-left: 10px;
+}
+.column-r .liucheng-info span .ic-user {
+  background: url(../../images/ic-user.png) center center no-repeat;
+}
+.column-r .liucheng-info span .ic-time {
+  background: url(../../images/time.png) center center no-repeat;
+}
+.steps {
+  padding: 40px 20px 20px 20px;
+}
+.steps h2 {
+  padding-bottom: 10px;
+}
+.steps p {
+  padding: 10px 0;
+}
 .parameter {
   display: block;
   overflow: hidden;
