@@ -904,6 +904,38 @@ input:-ms-input-placeholder {
 .lawyerlist-find li {
   margin: 12px 11px 31px 3px;
 }
+.lawyerlist-info li {
+  display: block;
+  float: left;
+  width: 170px;
+  height: auto;
+  overflow: hidden;
+  margin: 12px 5px;
+}
+.lawyerlist-info li .pic {
+  width: 170px;
+  height: 190px;
+}
+.lawyerlist-info li .pic img {
+  border: none;
+}
+.lawyerlist-info li .level {
+  position: relative;
+  top: -203px;
+  float: right;
+  background: rgba(255, 255, 255, 0.4);
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  overflow: hidden;
+}
+.lawyerlist-info li .level i.star {
+  background: url(../../images/ic-star.png) left center no-repeat;
+  width: 8px;
+  height: 14px;
+  margin: 0 2px;
+  display: inline-block;
+}
 .dynamic {
   display: block;
   overflow: hidden;
@@ -1165,6 +1197,11 @@ input:-ms-input-placeholder {
   margin-right: 22px;
   line-height: 25px;
   font-size: 12px;
+}
+.scroll-img {
+  padding: 12px 0;
+  width: 746px;
+  height: 571px;
 }
 .footer {
   display: block;
@@ -1430,7 +1467,7 @@ input:-ms-input-placeholder {
 }
 .sidebar {
   width: 250px;
-  height: 400px;
+  height: 350px;
   background: #fff;
   float: left;
   margin-right: 27px;
@@ -1450,7 +1487,6 @@ input:-ms-input-placeholder {
 }
 .column-r {
   width: 823px;
-  height: 400px;
   background: #fff;
   float: left;
 }
@@ -1491,6 +1527,10 @@ input:-ms-input-placeholder {
 }
 .steps p {
   padding: 10px 0;
+}
+.office-info {
+  padding: 12px;
+  line-height: 24px;
 }
 .parameter {
   display: block;
