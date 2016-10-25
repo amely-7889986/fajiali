@@ -731,6 +731,9 @@ input:-ms-input-placeholder {
   width: 179px;
   height: 209px;
 }
+.login-banner {
+  background: url(../../update/login-bg.png) center;
+}
 .news {
   position: relative;
   top: -420px;
