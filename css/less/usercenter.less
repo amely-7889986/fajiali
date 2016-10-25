@@ -73,180 +73,103 @@
 	.mtb24;
 	.bg-bai;
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
-	.userside{
+}
+.userside{
+	display: block;
+	overflow: hidden;
+	.l-left;
+	width: 210px;
+	height: 100%;
+	background-color: #eeeff1;
+	a{
+		display: block;
+		width: 210px;
+		height: 46px;
+		line-height: 46px;
+		border-bottom: 1px solid #dedede;
+		.font16;
+	}
+	i.icon{
+		width: 24px;
+		height: 24px;
 		display: block;
 		overflow: hidden;
 		.l-left;
-		width: 210px;
-		height: 100%;
-		background-color: #eeeff1;
-		a{
-			display: block;
-			width: 210px;
-			height: 46px;
-			line-height: 46px;
-			border-bottom: 1px solid #dedede;
-			.font16;
-		}
-		i.icon{
-			width: 24px;
-			height: 24px;
-			display: block;
-			overflow: hidden;
-			.l-left;
-			margin: 11px 12px 11px 16px;
-		}
+		margin: 11px 12px 11px 16px;
+	}
+	i.ic-order{
+		background: url(../../images/ic-order.png) center center no-repeat;
+	}
+	i.ic-coope{
+		background: url(../../images/ic-coope.png) center center no-repeat;
+	}
+	i.ic-client{
+		background: url(../../images/ic-client.png) center center no-repeat;
+	}
+	i.ic-pocket{
+		background: url(../../images/ic-pocket.png) center center no-repeat;
+	}
+	i.ic-topic{
+		background: url(../../images/ic-topic.png) center center no-repeat;
+	}
+	i.ic-article{
+		background: url(../../images/ic-article.png) center center no-repeat;
+	}
+	i.ic-message{
+		background: url(../../images/ic-message.png) center center no-repeat;
+	}
+	i.ic-contract{
+		background: url(../../images/ic-contract.png) center center no-repeat;
+	}
+	i.ic-set{
+		background: url(../../images/ic-set.png) center center no-repeat;
+	}
+	i.ic-system{
+		background: url(../../images/ic-system.png) center center no-repeat;
+	}
+	a:hover,a:active,a.active,{
+		.bg-dblue;
+		color: #fff;
 		i.ic-order{
-			background: url(../../images/ic-order.png) center center no-repeat;
+			background: url(../../images/ic-order-sel.png) center center no-repeat;
 		}
 		i.ic-coope{
-			background: url(../../images/ic-coope.png) center center no-repeat;
+			background: url(../../images/ic-coope-sel.png) center center no-repeat;
 		}
 		i.ic-client{
-			background: url(../../images/ic-client.png) center center no-repeat;
+			background: url(../../images/ic-client-sel.png) center center no-repeat;
 		}
 		i.ic-pocket{
-			background: url(../../images/ic-pocket.png) center center no-repeat;
+			background: url(../../images/ic-pocket-sel.png) center center no-repeat;
 		}
 		i.ic-topic{
-			background: url(../../images/ic-topic.png) center center no-repeat;
+			background: url(../../images/ic-topic-sel.png) center center no-repeat;
 		}
 		i.ic-article{
-			background: url(../../images/ic-article.png) center center no-repeat;
+			background: url(../../images/ic-article-sel.png) center center no-repeat;
 		}
 		i.ic-message{
-			background: url(../../images/ic-message.png) center center no-repeat;
+			background: url(../../images/ic-message-sel.png) center center no-repeat;
 		}
 		i.ic-contract{
-			background: url(../../images/ic-contract.png) center center no-repeat;
+			background: url(../../images/ic-contract-sel.png) center center no-repeat;
 		}
 		i.ic-set{
-			background: url(../../images/ic-set.png) center center no-repeat;
+			background: url(../../images/ic-set-sel.png) center center no-repeat;
 		}
 		i.ic-system{
-			background: url(../../images/ic-system.png) center center no-repeat;
-		}
-		a:hover,a:active,a.active,{
-			.bg-dblue;
-			color: #fff;
-			i.ic-order{
-				background: url(../../images/ic-order-sel.png) center center no-repeat;
-			}
-			i.ic-coope{
-				background: url(../../images/ic-coope-sel.png) center center no-repeat;
-			}
-			i.ic-client{
-				background: url(../../images/ic-client-sel.png) center center no-repeat;
-			}
-			i.ic-pocket{
-				background: url(../../images/ic-pocket-sel.png) center center no-repeat;
-			}
-			i.ic-topic{
-				background: url(../../images/ic-topic-sel.png) center center no-repeat;
-			}
-			i.ic-article{
-				background: url(../../images/ic-article-sel.png) center center no-repeat;
-			}
-			i.ic-message{
-				background: url(../../images/ic-message-sel.png) center center no-repeat;
-			}
-			i.ic-contract{
-				background: url(../../images/ic-contract-sel.png) center center no-repeat;
-			}
-			i.ic-set{
-				background: url(../../images/ic-set-sel.png) center center no-repeat;
-			}
-			i.ic-system{
-				background: url(../../images/ic-system-sel.png) center center no-repeat;
-			}
+			background: url(../../images/ic-system-sel.png) center center no-repeat;
 		}
 	}
-	.userbox{
-		display: block;
-		overflow: hidden;
-		.l-left;
-		.bg-bai;
-		width: 890px;
-		box-sizing: border-box;
-		border-left: 1px solid #ddd;
-	}
-	.usertab{
-		display: block;
-		overflow: hidden;
-		border-bottom: 1px solid #ddd;
-		box-sizing: border-box;
-		li{
-			margin: 0 12px;
-			.font16;
-			.l-left;
-			a{
-				display: inline-block;
-				padding: 13px 4px;
-				box-sizing: border-box;
-			}
-		}
-		a.active,a:hover,a:active{
-			border-bottom: 4px solid #203671;
-			.col-dblue;
-		}
-		.point{
-			position: relative;
-			top: -10px;
-			left: -6px;
-			border-radius: 50%;
-			display: inline-block;
-			width: 16px;
-			height: 16px;
-			text-align: center;
-			line-height: 16px;
-			.bg-red;
-			.font12;
-			.col-bai;
-		}
-	}
-	.usersearch{
-		display: block;
-		overflow: hidden;
-		padding: 8px 12px;
-		line-height: 32px;
-		input{
-			border-radius: 4px;
-			border: 1px solid #bfbfbf;
-			box-sizing: border-box;
-			height: 32px;
-		}
-		.search{
-			>input{
-				width: 180px;
-			}
-			a.submit{
-				display: inline-block;
-				.bg-dblue;
-				padding: 0 18px;
-				margin-left: 4px;
-				border-radius: 4px;
-				.col-bai;
-			}
-		}
-		.state{
-			margin: 0 24px;
-			>select{
-				margin-left: 4px;
-				height: 32px;
-				width: 140px;
-				float: left;
-				border: 1px solid #ddd;
-				color: #aaa;
-			}
-		}
-		.time{
-			>input{
-				width: 100px;
-				float: left;
-				margin: 0 4px;
-			}
-		}
-	}
+}
+.userbox{
+	display: block;
+	overflow: hidden;
+	.l-left;
+	.bg-bai;
+	width: 890px;
+	box-sizing: border-box;
+	border-left: 1px solid #ddd;
 	table.table{
 		padding: 8px 12px;
 		td{
@@ -265,192 +188,416 @@
 			background: #e6e6e6;
 		}
 	}
-	.userlocate{
-		display: block;
-		overflow: hidden;
-		border-bottom: 1px solid #ddd;
-		box-sizing: border-box;
+}
+.usertab{
+	display: block;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+	li{
+		margin: 0 12px;
+		.font16;
+		.l-left;
 		a{
 			display: inline-block;
-			padding: 15px 8px;
-			.font16;
-		}
-		a:hover{
-			text-decoration: underline;
-			.col-dblue;
+			padding: 13px 4px;
+			box-sizing: border-box;
 		}
 	}
-	.userinfo{
-		display: block;
-		overflow: hidden;
-		.col-l{
-			display: block;
-			width: 650px;
-			min-height: 423px;
-			border-right: 1px solid #ddd;
-			box-sizing: border-box;
+	a.active,a:hover,a:active{
+		border-bottom: 4px solid #203671;
+		.col-dblue;
+	}
+	.point{
+		position: relative;
+		top: -10px;
+		left: -6px;
+		border-radius: 50%;
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		text-align: center;
+		line-height: 16px;
+		.bg-red;
+		.font12;
+		.col-bai;
+	}
+}
+.usersearch{
+	display: block;
+	overflow: hidden;
+	padding: 8px 12px;
+	line-height: 32px;
+	input{
+		border-radius: 4px;
+		border: 1px solid #bfbfbf;
+		box-sizing: border-box;
+		height: 32px;
+	}
+	.search{
+		>input{
+			width: 180px;
+		}
+	}
+	a.submit{
+		display: inline-block;
+		.bg-dblue;
+		padding: 0 18px;
+		margin-left: 4px;
+		border-radius: 4px;
+		.col-bai;
+	}
+	.state{
+		margin: 0 24px;
+		>select{
+			margin-left: 4px;
+			height: 32px;
+			width: 140px;
 			float: left;
-			padding: 18px 12px;
-			.title{
-				.font16;
-				line-height: 24px;
+			border: 1px solid #ddd;
+			color: #aaa;
+		}
+	}
+	.time{
+		>input{
+			width: 100px;
+			float: left;
+			margin: 0 4px;
+		}
+	}
+}
+.userlocate{
+	display: block;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+	a{
+		display: inline-block;
+		padding: 15px 8px;
+		.font16;
+	}
+	a:hover{
+		text-decoration: underline;
+		.col-dblue;
+	}
+}
+.userinfo{
+	display: block;
+	overflow: hidden;
+	.col-l{
+		display: block;
+		width: 650px;
+		min-height: 423px;
+		border-right: 1px solid #ddd;
+		box-sizing: border-box;
+		float: left;
+		padding: 18px 12px;
+		.title{
+			.font16;
+			line-height: 24px;
+		}
+		.detail{
+			display: block;
+			overflow: hidden;
+			margin-top: 12px;
+			li{
+				float: left;
+				width: 50%;
+				height: 28px;
+				line-height: 28px;
+			}
+		}
+		.question{
+			display: block;
+			overflow: hidden;
+			margin-top: 18px;
+			.tit{
+				.font18;
+				.col-cheng;
 			}
 			.detail{
 				display: block;
 				overflow: hidden;
-				margin-top: 12px;
-				li{
-					float: left;
-					width: 50%;
-					height: 28px;
-					line-height: 28px;
-				}
+				line-height: 24px;
 			}
-			.question{
+			.quesbtn{
 				display: block;
 				overflow: hidden;
-				margin-top: 18px;
-				.tit{
-					.font18;
-					.col-cheng;
-				}
-				.detail{
-					display: block;
-					overflow: hidden;
-					line-height: 24px;
-				}
-				.quesbtn{
-					display: block;
-					overflow: hidden;
-					margin: 18px;
-					a{
-						.col-bai;
-						display: inline-block;
-						padding: 8px 12px;
-						margin-right: 18px;
-					}
+				margin: 18px;
+				a{
+					.col-bai;
+					display: inline-block;
+					padding: 8px 12px;
+					margin-right: 18px;
 				}
 			}
 		}
-		.col-r{
+		.u-page{
 			display: block;
 			overflow: hidden;
-			width: 239px;
-			min-height: 423px;
-			float: left;
-			box-sizing: border-box;
-			padding: 8px;
-		}
-		.client{
-			display: block;
-			overflow: hidden;
-			margin-bottom: 12px;
-			padding-left: 8px;
+			margin-top: 18px;
 			.pic{
-				width: 60px;
-				height: 60px;
 				display: block;
 				overflow: hidden;
+				float: left;
+				width: 160px;
+				margin-right: 10px;
 				img{
 					width: 100%;
 				}
 			}
-			.info{
-				width: 150px;
-				line-height: 20px;
-			}
-		}
-		.comment{
-			display: block;
-			overflow: hidden;
-			border: 1px solid #aaa;
-			.bg-hui;
-			padding: 4px;
-			line-height: 18px;
-			margin: 0 4px;
-		}
-		.level{
-			display: block;
-			overflow: hidden;
-			height: 24px;
-			line-height: 24px;
-			margin-top: 12px;
-			span{
-				display: inline-block;
-				overflow: hidden;
-				float: left;
-			}
-			i.star{
-				width: 18px;
-				height: 18px;
-				display: inline-block;
-				overflow: hidden;
-				background: url(../../images/ic-star.png) left center no-repeat;
-				background-size: 100%;
-				margin: 3px;
-			}
-		}
-		.worklog{
-			display: block;
-			overflow: hidden;
-			a.addlog{
-				display: block;
-				.text-ac;
-				.col-bai;
-				.bg-dblue;
-				width: 200px;
-				height: 38px;
-				line-height: 38px;
-				margin: 8px auto;
-			}
-			.timeline{
-				margin-left: 36px;
-				border-left: 2px solid #f06e00;
+			ul.detail{
 				li{
 					display: block;
-					padding-top: 8px;
-					position: relative;
-					height: 48px;
-					.time{
-						.l-left;
-						display: block;
-						overflow: hidden;
-						width: 64px;
-						height: 30px;
-						line-height: 14px;
-						.bg-bai;
-						border: 1px solid #f06e00;
-						.text-ac;
-						position: absolute;
-						.font12;
-						left: -34px;
-					}
-					.info{
-						display: block;
-						overflow: hidden;
-						.l-left;
-						width: 140px;
-						position: absolute;
-						left: 38px;
-						line-height: 16px;
-					}
+					overflow: hidden;
+					width: 440px;
+					float: left;
 				}
 			}
 		}
-		.coobtn{
+	}
+	.col-r{
+		display: block;
+		overflow: hidden;
+		width: 239px;
+		min-height: 423px;
+		float: left;
+		box-sizing: border-box;
+		padding: 8px;
+		a.addbank{
+			display: inline-block;
+			overflow: hidden;
+			.bg-dblue;
+			width: 215px;
+			height: 34px;
+			line-height: 34px;
+			margin: 0 4px;
+			.text-ac;
+			.col-bai;
+		}
+	}
+	.client{
+		display: block;
+		overflow: hidden;
+		margin-bottom: 12px;
+		padding-left: 8px;
+		.pic{
+			width: 60px;
+			height: 60px;
 			display: block;
 			overflow: hidden;
-			border-bottom: 1px solid #ddd;
-			a{
+			img{
+				width: 100%;
+			}
+		}
+		.info{
+			width: 150px;
+			line-height: 20px;
+		}
+	}
+	.comment{
+		display: block;
+		overflow: hidden;
+		border: 1px solid #aaa;
+		.bg-hui;
+		padding: 4px;
+		line-height: 18px;
+		margin: 0 4px;
+		.btn{
+			height: 28px;
+			line-height: 28px;
+			>a{
+				padding: 0 12px;
+				margin-right: 12px;
+				.col-bai;
+			}
+		}
+	}
+	.level{
+		display: block;
+		overflow: hidden;
+		height: 24px;
+		line-height: 24px;
+		margin-top: 12px;
+		span{
+			display: inline-block;
+			overflow: hidden;
+			float: left;
+		}
+		i.star{
+			width: 18px;
+			height: 18px;
+			display: inline-block;
+			overflow: hidden;
+			background: url(../../images/ic-star.png) left center no-repeat;
+			background-size: 100%;
+			margin: 3px;
+		}
+	}
+	.worklog{
+		display: block;
+		overflow: hidden;
+		a.addlog{
+			display: block;
+			.text-ac;
+			.col-bai;
+			.bg-dblue;
+			width: 200px;
+			height: 38px;
+			line-height: 38px;
+			margin: 8px auto;
+		}
+		.timeline{
+			margin-left: 36px;
+			border-left: 2px solid #f06e00;
+			li{
+				display: block;
+				padding-top: 8px;
+				position: relative;
+				height: 48px;
+				.time{
+					.l-left;
+					display: block;
+					overflow: hidden;
+					width: 64px;
+					height: 30px;
+					line-height: 14px;
+					.bg-bai;
+					border: 1px solid #f06e00;
+					.text-ac;
+					position: absolute;
+					.font12;
+					left: -34px;
+				}
+				.info{
+					display: block;
+					overflow: hidden;
+					.l-left;
+					width: 140px;
+					position: absolute;
+					left: 38px;
+					line-height: 16px;
+				}
+			}
+		}
+	}
+	.coobtn{
+		display: block;
+		overflow: hidden;
+		border-bottom: 1px solid #ddd;
+		a{
+			display: inline-block;
+			overflow: hidden;
+			.col-bai;
+			width: 46%;
+			height: 34px;
+			line-height: 34px;
+			.text-ac;
+			margin: 8px 1%;
+		}
+	}
+	.pocketbox{
+		display: block;
+		overflow: hidden;
+		border-bottom: 1px solid #ddd;
+		margin-bottom: 12px;
+		.tit{
+			display: block;
+			overflow: hidden;
+			height: 34px;
+			line-height: 34px;
+			span{
+				.l-left;
+				display: inline-block;
+				margin-right: 12px;
+			}
+			>a{
 				display: inline-block;
 				overflow: hidden;
 				.col-bai;
-				width: 46%;
-				height: 34px;
-				line-height: 34px;
-				.text-ac;
-				margin: 8px 1%;
+				padding: 0 24px;
+				margin: 0 12px;
 			}
 		}
+		.checklist{
+			display: block;
+			overflow: hidden;
+			li{
+				width: 50%;
+				.l-left;
+				height: 34px;
+				margin: 8px 0;
+				.sec{
+					.l-left;
+					line-height: 34px;
+				}
+				a{
+					margin: 6px 12px;
+				}
+			}
+		}
+	}
+}
+.u-form{
+	display: block;
+	overflow: hidden;
+	padding: 8px 12px;
+	.fillform{
+		display: block;
+		overflow: hidden;
+		label{
+			display: inline-block;
+			.font16;
+			.col-cheng;
+			line-height: 46px;
+			width: 100px;
+			float: left;
+			.text-ar;
+		}
+		input{
+			float: left;
+			height: 20px;
+			margin-top: 10px;
+		}
+		select{
+			float: left;
+			height: 28px;
+			margin-top: 10px;
+			width: 120px;
+			margin-right: 12px;
+		}
+		a.addclass{
+			display: inline-block;
+			padding: 8px 12px;
+			.bg-dblue;
+			.col-bai;
+			.font12;
+			margin: 10px;
+		}
+		textarea{
+			margin-top: 10px;
+		}
+		span{
+			display: inline-block;
+			overflow: hidden;
+			height: 46px;
+			line-height: 46px;
+		}
+	}
+	.prompt{
+		display: block;
+		overflow: hidden;
+		.text-ac;
+		.bg-hui;
+		.col-dblue;
+		padding: 12px 0;
+	}
+	a.submit{
+		display: inline-block;
+		.bg-cheng;
+		.col-bai;
+		padding: 8px 18px;
+		margin-left: 100px;
+		margin-top: 12px;
 	}
 }

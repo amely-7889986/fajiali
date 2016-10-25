@@ -467,6 +467,9 @@ input:-ms-input-placeholder {
 .pd20 {
   padding: 20px 0;
 }
+.pdlr18 {
+  padding: 0 18px;
+}
 .pdlr12 {
   padding: 0 12px;
 }
@@ -2137,7 +2140,7 @@ input:-ms-input-placeholder {
   background-color: #fff;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
-.usertable .userside {
+.userside {
   display: block;
   overflow: hidden;
   float: left;
@@ -2145,7 +2148,7 @@ input:-ms-input-placeholder {
   height: 100%;
   background-color: #eeeff1;
 }
-.usertable .userside a {
+.userside a {
   display: block;
   width: 210px;
   height: 46px;
@@ -2153,7 +2156,7 @@ input:-ms-input-placeholder {
   border-bottom: 1px solid #dedede;
   font-size: 16px;
 }
-.usertable .userside i.icon {
+.userside i.icon {
   width: 24px;
   height: 24px;
   display: block;
@@ -2161,93 +2164,93 @@ input:-ms-input-placeholder {
   float: left;
   margin: 11px 12px 11px 16px;
 }
-.usertable .userside i.ic-order {
+.userside i.ic-order {
   background: url(../../images/ic-order.png) center center no-repeat;
 }
-.usertable .userside i.ic-coope {
+.userside i.ic-coope {
   background: url(../../images/ic-coope.png) center center no-repeat;
 }
-.usertable .userside i.ic-client {
+.userside i.ic-client {
   background: url(../../images/ic-client.png) center center no-repeat;
 }
-.usertable .userside i.ic-pocket {
+.userside i.ic-pocket {
   background: url(../../images/ic-pocket.png) center center no-repeat;
 }
-.usertable .userside i.ic-topic {
+.userside i.ic-topic {
   background: url(../../images/ic-topic.png) center center no-repeat;
 }
-.usertable .userside i.ic-article {
+.userside i.ic-article {
   background: url(../../images/ic-article.png) center center no-repeat;
 }
-.usertable .userside i.ic-message {
+.userside i.ic-message {
   background: url(../../images/ic-message.png) center center no-repeat;
 }
-.usertable .userside i.ic-contract {
+.userside i.ic-contract {
   background: url(../../images/ic-contract.png) center center no-repeat;
 }
-.usertable .userside i.ic-set {
+.userside i.ic-set {
   background: url(../../images/ic-set.png) center center no-repeat;
 }
-.usertable .userside i.ic-system {
+.userside i.ic-system {
   background: url(../../images/ic-system.png) center center no-repeat;
 }
-.usertable .userside a:hover,
-.usertable .userside a:active,
-.usertable .userside a.active {
+.userside a:hover,
+.userside a:active,
+.userside a.active {
   background-color: #203671;
   color: #fff;
 }
-.usertable .userside a:hover i.ic-order,
-.usertable .userside a:active i.ic-order,
-.usertable .userside a.active i.ic-order {
+.userside a:hover i.ic-order,
+.userside a:active i.ic-order,
+.userside a.active i.ic-order {
   background: url(../../images/ic-order-sel.png) center center no-repeat;
 }
-.usertable .userside a:hover i.ic-coope,
-.usertable .userside a:active i.ic-coope,
-.usertable .userside a.active i.ic-coope {
+.userside a:hover i.ic-coope,
+.userside a:active i.ic-coope,
+.userside a.active i.ic-coope {
   background: url(../../images/ic-coope-sel.png) center center no-repeat;
 }
-.usertable .userside a:hover i.ic-client,
-.usertable .userside a:active i.ic-client,
-.usertable .userside a.active i.ic-client {
+.userside a:hover i.ic-client,
+.userside a:active i.ic-client,
+.userside a.active i.ic-client {
   background: url(../../images/ic-client-sel.png) center center no-repeat;
 }
-.usertable .userside a:hover i.ic-pocket,
-.usertable .userside a:active i.ic-pocket,
-.usertable .userside a.active i.ic-pocket {
+.userside a:hover i.ic-pocket,
+.userside a:active i.ic-pocket,
+.userside a.active i.ic-pocket {
   background: url(../../images/ic-pocket-sel.png) center center no-repeat;
 }
-.usertable .userside a:hover i.ic-topic,
-.usertable .userside a:active i.ic-topic,
-.usertable .userside a.active i.ic-topic {
+.userside a:hover i.ic-topic,
+.userside a:active i.ic-topic,
+.userside a.active i.ic-topic {
   background: url(../../images/ic-topic-sel.png) center center no-repeat;
 }
-.usertable .userside a:hover i.ic-article,
-.usertable .userside a:active i.ic-article,
-.usertable .userside a.active i.ic-article {
+.userside a:hover i.ic-article,
+.userside a:active i.ic-article,
+.userside a.active i.ic-article {
   background: url(../../images/ic-article-sel.png) center center no-repeat;
 }
-.usertable .userside a:hover i.ic-message,
-.usertable .userside a:active i.ic-message,
-.usertable .userside a.active i.ic-message {
+.userside a:hover i.ic-message,
+.userside a:active i.ic-message,
+.userside a.active i.ic-message {
   background: url(../../images/ic-message-sel.png) center center no-repeat;
 }
-.usertable .userside a:hover i.ic-contract,
-.usertable .userside a:active i.ic-contract,
-.usertable .userside a.active i.ic-contract {
+.userside a:hover i.ic-contract,
+.userside a:active i.ic-contract,
+.userside a.active i.ic-contract {
   background: url(../../images/ic-contract-sel.png) center center no-repeat;
 }
-.usertable .userside a:hover i.ic-set,
-.usertable .userside a:active i.ic-set,
-.usertable .userside a.active i.ic-set {
+.userside a:hover i.ic-set,
+.userside a:active i.ic-set,
+.userside a.active i.ic-set {
   background: url(../../images/ic-set-sel.png) center center no-repeat;
 }
-.usertable .userside a:hover i.ic-system,
-.usertable .userside a:active i.ic-system,
-.usertable .userside a.active i.ic-system {
+.userside a:hover i.ic-system,
+.userside a:active i.ic-system,
+.userside a.active i.ic-system {
   background: url(../../images/ic-system-sel.png) center center no-repeat;
 }
-.usertable .userbox {
+.userbox {
   display: block;
   overflow: hidden;
   float: left;
@@ -2256,29 +2259,47 @@ input:-ms-input-placeholder {
   box-sizing: border-box;
   border-left: 1px solid #ddd;
 }
-.usertable .usertab {
+.userbox table.table {
+  padding: 8px 12px;
+}
+.userbox table.table td {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  line-height: 18px;
+}
+.userbox table.table td a {
+  vertical-align: middle;
+  margin: 0 18px;
+}
+.userbox table.table td img {
+  width: 100%;
+}
+.userbox table.table tr:hover {
+  background: #e6e6e6;
+}
+.usertab {
   display: block;
   overflow: hidden;
   border-bottom: 1px solid #ddd;
   box-sizing: border-box;
 }
-.usertable .usertab li {
+.usertab li {
   margin: 0 12px;
   font-size: 16px;
   float: left;
 }
-.usertable .usertab li a {
+.usertab li a {
   display: inline-block;
   padding: 13px 4px;
   box-sizing: border-box;
 }
-.usertable .usertab a.active,
-.usertable .usertab a:hover,
-.usertable .usertab a:active {
+.usertab a.active,
+.usertab a:hover,
+.usertab a:active {
   border-bottom: 4px solid #203671;
   color: #203671;
 }
-.usertable .usertab .point {
+.usertab .point {
   position: relative;
   top: -10px;
   left: -6px;
@@ -2292,22 +2313,22 @@ input:-ms-input-placeholder {
   font-size: 12px;
   color: #fff;
 }
-.usertable .usersearch {
+.usersearch {
   display: block;
   overflow: hidden;
   padding: 8px 12px;
   line-height: 32px;
 }
-.usertable .usersearch input {
+.usersearch input {
   border-radius: 4px;
   border: 1px solid #bfbfbf;
   box-sizing: border-box;
   height: 32px;
 }
-.usertable .usersearch .search > input {
+.usersearch .search > input {
   width: 180px;
 }
-.usertable .usersearch .search a.submit {
+.usersearch a.submit {
   display: inline-block;
   background-color: #203671;
   padding: 0 18px;
@@ -2315,10 +2336,10 @@ input:-ms-input-placeholder {
   border-radius: 4px;
   color: #fff;
 }
-.usertable .usersearch .state {
+.usersearch .state {
   margin: 0 24px;
 }
-.usertable .usersearch .state > select {
+.usersearch .state > select {
   margin-left: 4px;
   height: 32px;
   width: 140px;
@@ -2326,49 +2347,31 @@ input:-ms-input-placeholder {
   border: 1px solid #ddd;
   color: #aaa;
 }
-.usertable .usersearch .time > input {
+.usersearch .time > input {
   width: 100px;
   float: left;
   margin: 0 4px;
 }
-.usertable table.table {
-  padding: 8px 12px;
-}
-.usertable table.table td {
-  padding: 8px 0;
-  border-bottom: 1px solid #ddd;
-  line-height: 18px;
-}
-.usertable table.table td a {
-  vertical-align: middle;
-  margin: 0 18px;
-}
-.usertable table.table td img {
-  width: 100%;
-}
-.usertable table.table tr:hover {
-  background: #e6e6e6;
-}
-.usertable .userlocate {
+.userlocate {
   display: block;
   overflow: hidden;
   border-bottom: 1px solid #ddd;
   box-sizing: border-box;
 }
-.usertable .userlocate a {
+.userlocate a {
   display: inline-block;
   padding: 15px 8px;
   font-size: 16px;
 }
-.usertable .userlocate a:hover {
+.userlocate a:hover {
   text-decoration: underline;
   color: #203671;
 }
-.usertable .userinfo {
+.userinfo {
   display: block;
   overflow: hidden;
 }
-.usertable .userinfo .col-l {
+.userinfo .col-l {
   display: block;
   width: 650px;
   min-height: 423px;
@@ -2377,47 +2380,68 @@ input:-ms-input-placeholder {
   float: left;
   padding: 18px 12px;
 }
-.usertable .userinfo .col-l .title {
+.userinfo .col-l .title {
   font-size: 16px;
   line-height: 24px;
 }
-.usertable .userinfo .col-l .detail {
+.userinfo .col-l .detail {
   display: block;
   overflow: hidden;
   margin-top: 12px;
 }
-.usertable .userinfo .col-l .detail li {
+.userinfo .col-l .detail li {
   float: left;
   width: 50%;
   height: 28px;
   line-height: 28px;
 }
-.usertable .userinfo .col-l .question {
+.userinfo .col-l .question {
   display: block;
   overflow: hidden;
   margin-top: 18px;
 }
-.usertable .userinfo .col-l .question .tit {
+.userinfo .col-l .question .tit {
   font-size: 18px;
   color: #f06e00;
 }
-.usertable .userinfo .col-l .question .detail {
+.userinfo .col-l .question .detail {
   display: block;
   overflow: hidden;
   line-height: 24px;
 }
-.usertable .userinfo .col-l .question .quesbtn {
+.userinfo .col-l .question .quesbtn {
   display: block;
   overflow: hidden;
   margin: 18px;
 }
-.usertable .userinfo .col-l .question .quesbtn a {
+.userinfo .col-l .question .quesbtn a {
   color: #fff;
   display: inline-block;
   padding: 8px 12px;
   margin-right: 18px;
 }
-.usertable .userinfo .col-r {
+.userinfo .col-l .u-page {
+  display: block;
+  overflow: hidden;
+  margin-top: 18px;
+}
+.userinfo .col-l .u-page .pic {
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 160px;
+  margin-right: 10px;
+}
+.userinfo .col-l .u-page .pic img {
+  width: 100%;
+}
+.userinfo .col-l .u-page ul.detail li {
+  display: block;
+  overflow: hidden;
+  width: 440px;
+  float: left;
+}
+.userinfo .col-r {
   display: block;
   overflow: hidden;
   width: 239px;
@@ -2426,26 +2450,37 @@ input:-ms-input-placeholder {
   box-sizing: border-box;
   padding: 8px;
 }
-.usertable .userinfo .client {
+.userinfo .col-r a.addbank {
+  display: inline-block;
+  overflow: hidden;
+  background-color: #203671;
+  width: 215px;
+  height: 34px;
+  line-height: 34px;
+  margin: 0 4px;
+  text-align: center;
+  color: #fff;
+}
+.userinfo .client {
   display: block;
   overflow: hidden;
   margin-bottom: 12px;
   padding-left: 8px;
 }
-.usertable .userinfo .client .pic {
+.userinfo .client .pic {
   width: 60px;
   height: 60px;
   display: block;
   overflow: hidden;
 }
-.usertable .userinfo .client .pic img {
+.userinfo .client .pic img {
   width: 100%;
 }
-.usertable .userinfo .client .info {
+.userinfo .client .info {
   width: 150px;
   line-height: 20px;
 }
-.usertable .userinfo .comment {
+.userinfo .comment {
   display: block;
   overflow: hidden;
   border: 1px solid #aaa;
@@ -2454,19 +2489,28 @@ input:-ms-input-placeholder {
   line-height: 18px;
   margin: 0 4px;
 }
-.usertable .userinfo .level {
+.userinfo .comment .btn {
+  height: 28px;
+  line-height: 28px;
+}
+.userinfo .comment .btn > a {
+  padding: 0 12px;
+  margin-right: 12px;
+  color: #fff;
+}
+.userinfo .level {
   display: block;
   overflow: hidden;
   height: 24px;
   line-height: 24px;
   margin-top: 12px;
 }
-.usertable .userinfo .level span {
+.userinfo .level span {
   display: inline-block;
   overflow: hidden;
   float: left;
 }
-.usertable .userinfo .level i.star {
+.userinfo .level i.star {
   width: 18px;
   height: 18px;
   display: inline-block;
@@ -2475,11 +2519,11 @@ input:-ms-input-placeholder {
   background-size: 100%;
   margin: 3px;
 }
-.usertable .userinfo .worklog {
+.userinfo .worklog {
   display: block;
   overflow: hidden;
 }
-.usertable .userinfo .worklog a.addlog {
+.userinfo .worklog a.addlog {
   display: block;
   text-align: center;
   color: #fff;
@@ -2489,17 +2533,17 @@ input:-ms-input-placeholder {
   line-height: 38px;
   margin: 8px auto;
 }
-.usertable .userinfo .worklog .timeline {
+.userinfo .worklog .timeline {
   margin-left: 36px;
   border-left: 2px solid #f06e00;
 }
-.usertable .userinfo .worklog .timeline li {
+.userinfo .worklog .timeline li {
   display: block;
   padding-top: 8px;
   position: relative;
   height: 48px;
 }
-.usertable .userinfo .worklog .timeline li .time {
+.userinfo .worklog .timeline li .time {
   float: left;
   display: block;
   overflow: hidden;
@@ -2513,7 +2557,7 @@ input:-ms-input-placeholder {
   font-size: 12px;
   left: -34px;
 }
-.usertable .userinfo .worklog .timeline li .info {
+.userinfo .worklog .timeline li .info {
   display: block;
   overflow: hidden;
   float: left;
@@ -2522,12 +2566,12 @@ input:-ms-input-placeholder {
   left: 38px;
   line-height: 16px;
 }
-.usertable .userinfo .coobtn {
+.userinfo .coobtn {
   display: block;
   overflow: hidden;
   border-bottom: 1px solid #ddd;
 }
-.usertable .userinfo .coobtn a {
+.userinfo .coobtn a {
   display: inline-block;
   overflow: hidden;
   color: #fff;
@@ -2536,6 +2580,110 @@ input:-ms-input-placeholder {
   line-height: 34px;
   text-align: center;
   margin: 8px 1%;
+}
+.userinfo .pocketbox {
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+.userinfo .pocketbox .tit {
+  display: block;
+  overflow: hidden;
+  height: 34px;
+  line-height: 34px;
+}
+.userinfo .pocketbox .tit span {
+  float: left;
+  display: inline-block;
+  margin-right: 12px;
+}
+.userinfo .pocketbox .tit > a {
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  padding: 0 24px;
+  margin: 0 12px;
+}
+.userinfo .pocketbox .checklist {
+  display: block;
+  overflow: hidden;
+}
+.userinfo .pocketbox .checklist li {
+  width: 50%;
+  float: left;
+  height: 34px;
+  margin: 8px 0;
+}
+.userinfo .pocketbox .checklist li .sec {
+  float: left;
+  line-height: 34px;
+}
+.userinfo .pocketbox .checklist li a {
+  margin: 6px 12px;
+}
+.u-form {
+  display: block;
+  overflow: hidden;
+  padding: 8px 12px;
+}
+.u-form .fillform {
+  display: block;
+  overflow: hidden;
+}
+.u-form .fillform label {
+  display: inline-block;
+  font-size: 16px;
+  color: #f06e00;
+  line-height: 46px;
+  width: 100px;
+  float: left;
+  text-align: right;
+}
+.u-form .fillform input {
+  float: left;
+  height: 20px;
+  margin-top: 10px;
+}
+.u-form .fillform select {
+  float: left;
+  height: 28px;
+  margin-top: 10px;
+  width: 120px;
+  margin-right: 12px;
+}
+.u-form .fillform a.addclass {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #203671;
+  color: #fff;
+  font-size: 12px;
+  margin: 10px;
+}
+.u-form .fillform textarea {
+  margin-top: 10px;
+}
+.u-form .fillform span {
+  display: inline-block;
+  overflow: hidden;
+  height: 46px;
+  line-height: 46px;
+}
+.u-form .prompt {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  background-color: #eeeff1;
+  color: #203671;
+  padding: 12px 0;
+}
+.u-form a.submit {
+  display: inline-block;
+  background-color: #f06e00;
+  color: #fff;
+  padding: 8px 18px;
+  margin-left: 100px;
+  margin-top: 12px;
 }
 .h527 {
   height: 527px;
@@ -2802,4 +2950,201 @@ input:-ms-input-placeholder {
   height: 18px;
   padding-left: 23px;
   background: url(../../images/arrow-go.png) no-repeat;
+}
+.workneed .case-add {
+  height: auto;
+  overflow: hidden;
+}
+.workneed .case-add .add-deta {
+  width: 1010px;
+}
+.workneed .case-add > span {
+  font-weight: normal !important;
+}
+.workneed .case-add span {
+  margin-right: 15px !important;
+  font-weight: bold;
+}
+.workneed .case-add span:first-child {
+  margin-right: 4px !important;
+  color: #2c3444 !important;
+}
+.workneed .case-add span a {
+  margin: 0 5px !important;
+  color: #2c3444 !important;
+  font-weight: normal;
+}
+.workneed .case-add span a:hover {
+  color: #fff !important;
+}
+.workneed .bid {
+  clear: both;
+}
+.work-list .table {
+  width: 100%;
+  border: 1px solid #ddd;
+  /*padding: 0 12px;*/
+  background: #fff;
+}
+.work-list .table tr {
+  cursor: pointer;
+}
+.work-list .table tr:hover {
+  background: #e7e7e7;
+}
+.work-list .table tr:hover td:first-child {
+  color: #203670;
+  text-decoration: underline;
+}
+.work-list .table tr:hover:first-child {
+  cursor: default;
+  background: #fff;
+}
+.work-list .table tr th {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 8px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.work-list .table tr th:first-child {
+  text-align: left;
+}
+.work-list .table tr td {
+  height: 60px;
+  line-height: 20px;
+  border-top: 1px solid #ddd;
+  padding: 0 8px;
+  text-align: center;
+  overflow: hidden;
+}
+.work-list .table tr td:first-child {
+  width: 30%;
+  overflow: hidden;
+  text-align: left;
+}
+.work-list .table tr .t-price {
+  color: #ea463b;
+}
+.work-list .table tr .t-bid {
+  color: #04c191;
+}
+.work-list .table tr .t-urgent {
+  color: #9f6fec;
+}
+.work-list .table tr .t-emergen {
+  color: #3f9ff0;
+}
+.ta-pagenum {
+  margin: 0 0 24px 0;
+  padding: 18px 0 24px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+.wn-deta {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+.wn-deta .tit-box {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px 0 8px;
+  box-sizing: border-box;
+}
+.wn-deta .tit-box h2 {
+  font-size: 18px;
+}
+.wn-deta .tit-box a {
+  display: inline-block;
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  background: #203670;
+  color: #fff;
+  margin-top: 7px;
+}
+.wn-deta .con {
+  border-top: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.wn-deta .con .case-deta {
+  width: 800px;
+  padding-top: 20px;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.wn-deta .con .case-deta .case-info {
+  padding: 0 20px 25px 8px;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.wn-deta .con .case-deta .case-info h3 {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+.wn-deta .con .case-deta .case-info .cate {
+  display: inline-block;
+  width: 32%;
+  margin-top: 15px;
+}
+.wn-deta .con .case-deta .case-info .cate .c-time-h {
+  margin-left: 10px;
+}
+.wn-deta .con .case-deta .case-info .p-left {
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+.wn-deta .con .case-deta .case-info .desc {
+  margin-top: 20px;
+  line-height: 20px;
+}
+.wn-deta .con .case-deta .case-info .desc p {
+  width: 701px;
+}
+.wn-deta .con .case-deta .bid-record .con-box {
+  padding: 10px 0 20px 0;
+  border-top: 1px solid #ddd;
+}
+.wn-deta .con .case-deta .bid-record .con-box .bid-info {
+  line-height: 28px;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+.wn-deta .con .case-deta .bid-record .con-box .bid-info div {
+  width: 25%;
+}
+.wn-deta .con .bid-pub {
+  width: 300px;
+}
+.wn-deta .con .bid-pub .bid-tit {
+  border-bottom: 1px solid #ddd;
+}
+.wn-deta .con .bid-pub .bid-mid {
+  margin-top: 20px;
+}
+.wn-deta .con .bid-pub .bid-mid .wn-pic {
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+.wn-deta .con .bid-pub .bid-mid .law-info {
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+.wn-deta .con .bid-pub .bid-mid .law-info div {
+  margin-top: 25px;
+}
+.wn-deta .con .bid-pub .bid-mid .law-info div:first-child {
+  margin-top: 0;
+}
+.wn-deta .con .bid-pub .wn-practice {
+  padding-left: 12px;
+  margin-top: 25px;
+}
+.wn-deta .con .bid-pub .wn-practice .mar-t {
+  margin-top: 20px;
 }

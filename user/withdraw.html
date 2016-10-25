@@ -107,128 +107,51 @@
             <a href="mysystem.html"><i class="icon ic-system"></i><span class="tit">系统消息</span></a>
         </div>
         <div class="userbox">
-          <div class="usertab">
-            <ul>
-              <li><a href="javascript:void(0)" class="active">咨询订单</a></li>
-              <li><a href="javascript:void(0)">律师订单</a></li>
-              <li><a href="javascript:void(0)">合作订单</a><span class="point">14</span></li>
-            </ul>
+          <div class="userlocate">
+            <span><a href="mypocket.html" class="active"><img class="l-left mr4" width="18" height="18" src="../images/ic-pocket.png" alt="">我的钱包</a></span>>
+            <span><a href="javascript:void(0)">用户提现</a></span>
           </div>
-          <div class="usersearch">
-            <div class="search l-left"><input type="text" class="l-left" placeholder="输入订单号"><a href="javascript:void(0)" class="submit">查找</a></div>
-            <div class="state l-left">
-              <span class="col-hei l-left">订单状态</span>
-              <select name="state" id="">
-                <option value="待合作">待合作</option>
-                <option value="待确认">待确认</option>
-                <option value="已合作">已合作</option>
-                <option value="已取消">已取消</option>
-              </select>
+          <div class="userinfo">
+            <div class="col-l">
+              <div class="pocketbox">
+                <div class="tit">
+                  <span class="font16 col-cheng">账户余额：</span>
+                  <span>2831.92</span>
+                </div>
+              </div>
+              <div class="u-form">
+                <div class="fillform">
+                  <label for="maney">提现金额：</label>
+                  <input class="w242" type="text" placeholder="金额数必须是100的倍数">
+                </div>
+                <div class="fillform">
+                  <label for="phone">提醒手机：</label>
+                  <input class="w242" type="text" placeholder="填写到账后的提醒手机号码">
+                </div>
+                <div class="fillform">
+                  <label for="maney">确认账号：</label>
+                  <input class="w242" type="text" placeholder="填写你要体现的银行卡、支付宝账号">
+                </div>
+                <div class="fliiform">
+                  <input type="radio">
+                  <span>我已同意法加理<a href="javascript:void(0)">《用户提现协议》</a></span>
+                </div>
+                <a href="javascript:void(0)" class="submit">立即体现</a>
+              </div>
             </div>
-            <div class="time">
-              <div class="col-hei l-left">订单时间</div>
-              <input type="text" class="l-left" placeholder="开始时间" id="start" onclick="laydate()">
-              <input type="text" class="l-left" placeholder="结束时间" id="end" onclick="laydate()">
+            <div class="col-r">
+              <div class="font18 col-cheng mtb14">已绑定银行卡</div>
+              <div class="comment mb16">
+                <p class="bank">招商银行</p>
+                <p class="count"><span>账号：</span><span>2939811893183113</span></p>
+                <div class="btn"><a href="javascript:void(0)" class="bg-cheng">选择</a></div>
+              </div>
+              <div class="comment mb16">
+                <p class="bank">招商银行</p>
+                <p class="count"><span>账号：</span><span>2939811893183113</span></p>
+                <div class="btn"><a href="javascript:void(0)" class="bg-dblue">已选择</a></div>
+              </div>
             </div>
-          </div>
-          <table class="table">
-            <tr>
-              <td width="180">H238712371232313</td>
-              <td width="400"><a href="orderinfo.html">试用期已经2个月了，一直没有说要签合同，而且辞职公司</a></td>
-              <td class="col-lblue text-ac" width="80">待确认</td>
-              <td width="100" class="text-ac">2016-9-20</td>
-              <td width="100"><a href="orderinfo.html" class="clickbtn">查看</a></td>
-            </tr>
-            <tr>
-              <td width="180">H238712371232313</td>
-              <td><a href="orderinfo.html">你好：我想问你一下，我们有了孩子了，户口也在一起了，可是还没有拿结婚证，现在去办结婚证怎么办</a></td>
-              <td class="col-zi text-ac">未完成</td>
-              <td class="text-ac">2016-9-20</td>
-              <td><a href="orderinfo.html" class="clickbtn">查看</a></td>
-            </tr>
-            <tr>
-              <td width="180">H238712371232313</td>
-              <td><a href="orderinfo.html">老人再婚房屋是男方婚前财产,若男方离世后,女方还有居住权吗?</a></td>
-              <td class="col-lv text-ac">已咨询</td>
-              <td class="text-ac">2016-9-20</td>
-              <td><a href="orderinfo.html" class="clickbtn">查看</a></td>
-            </tr>
-            <tr>
-              <td width="180">H238712371232313</td>
-              <td width="400"><a href="orderinfo.html">试用期已经2个月了，一直没有说要签合同，而且辞职公司</a></td>
-              <td class="col-lblue text-ac" width="80">待确认</td>
-              <td width="100" class="text-ac">2016-9-20</td>
-              <td><a href="orderinfo.html" class="clickbtn">查看</a></td>
-            </tr>
-            <tr>
-              <td width="180">H238712371232313</td>
-              <td><a href="orderinfo.html">你好：我想问你一下，我们有了孩子了，户口也在一起了，可是还没有拿结婚证，现在去办结婚证怎么办</a></td>
-              <td class="col-zi text-ac">未完成</td>
-              <td class="text-ac">2016-9-20</td>
-              <td><a href="orderinfo.html" class="clickbtn">查看</a></td>
-            </tr>
-            <tr>
-              <td width="180">H238712371232313</td>
-              <td><a href="orderinfo.html">老人再婚房屋是男方婚前财产,若男方离世后,女方还有居住权吗?</a></td>
-              <td class="col-lv text-ac">已咨询</td>
-              <td class="text-ac">2016-9-20</td>
-              <td><a href="orderinfo.html" class="clickbtn">查看</a></td>
-            </tr>
-            <tr>
-              <td width="180">H238712371232313</td>
-              <td width="400"><a href="orderinfo.html">试用期已经2个月了，一直没有说要签合同，而且辞职公司</a></td>
-              <td class="col-lblue text-ac" width="80">待确认</td>
-              <td width="100" class="text-ac">2016-9-20</td>
-              <td><a href="orderinfo.html" class="clickbtn">查看</a></td>
-            </tr>
-            <tr>
-              <td width="180">H238712371232313</td>
-              <td><a href="orderinfo.html">你好：我想问你一下，我们有了孩子了，户口也在一起了，可是还没有拿结婚证，现在去办结婚证怎么办</a></td>
-              <td class="col-zi text-ac">未完成</td>
-              <td class="text-ac">2016-9-20</td>
-              <td><a href="orderinfo.html" class="clickbtn">查看</a></td>
-            </tr>
-            <tr>
-              <td width="180">H238712371232313</td>
-              <td><a href="orderinfo.html">老人再婚房屋是男方婚前财产,若男方离世后,女方还有居住权吗?</a></td>
-              <td class="col-lv text-ac">已咨询</td>
-              <td class="text-ac">2016-9-20</td>
-              <td><a href="orderinfo.html" class="clickbtn">查看</a></td>
-            </tr>
-            <tr>
-              <td width="180">H238712371232313</td>
-              <td width="400"><a href="orderinfo.html">试用期已经2个月了，一直没有说要签合同，而且辞职公司</a></td>
-              <td class="col-lblue text-ac" width="80">待确认</td>
-              <td width="100" class="text-ac">2016-9-20</td>
-              <td><a href="orderinfo.html" class="clickbtn">查看</a></td>
-            </tr>
-            <tr>
-              <td width="180">H238712371232313</td>
-              <td><a href="orderinfo.html">你好：我想问你一下，我们有了孩子了，户口也在一起了，可是还没有拿结婚证，现在去办结婚证怎么办</a></td>
-              <td class="col-zi text-ac">未完成</td>
-              <td class="text-ac">2016-9-20</td>
-              <td><a href="orderinfo.html" class="clickbtn">查看</a></td>
-            </tr>
-            <tr>
-              <td width="180">H238712371232313</td>
-              <td><a href="orderinfo.html">老人再婚房屋是男方婚前财产,若男方离世后,女方还有居住权吗?</a></td>
-              <td class="col-lv text-ac">已咨询</td>
-              <td class="text-ac">2016-9-20</td>
-              <td><a href="orderinfo.html" class="clickbtn">查看</a></td>
-            </tr>
-          </table>
-          <div class="pagenum">
-            <a href="index.html">首页</a>
-            <a href="javascript:void(0)" class="prev">上一页</a>
-            <a href="javascript:void(0)" class="active">1</a>
-            <a href="javascript:void(0)">2</a>
-            <a href="javascript:void(0)">3</a>
-            <a href="javascript:void(0)">4</a>
-            <a href="javascript:void(0)">5</a>
-            <a href="javascript:void(0)">6</a>
-            <a href="javascript:void(0)">7</a>
-            <a href="javascript:void(0)" class="next">下一页</a>
-            <a href="javascript:void(0)">尾页</a>
           </div>
         </div>
       </div>
@@ -315,34 +238,7 @@
 
   <script src="../js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="../js/main.js" type="text/javascript" charset="utf-8"></script>
-  <script src="../js/laydate.js"></script>
-  <script>
-    var start = {
-      elem: '#start',
-      format: 'YYYY/MM/DD hh:mm:ss',
-      min: laydate.now(), //设定最小日期为当前日期
-      max: '2099-06-16 23:59:59', //最大日期
-      istime: true,
-      istoday: false,
-      choose: function(datas){
-         end.min = datas; //开始日选好后，重置结束日的最小日期
-         end.start = datas //将结束日的初始值设定为开始日
-      }
-    };
-    var end = {
-      elem: '#end',
-      format: 'YYYY/MM/DD hh:mm:ss',
-      min: laydate.now(),
-      max: '2099-06-16 23:59:59',
-      istime: true,
-      istoday: false,
-      choose: function(datas){
-        start.max = datas; //结束日选好后，重置开始日的最大日期
-      }
-    };
-    laydate(start);
-    laydate(end);
-  </script>
+
 
   <!-- 二维码弹出 -->
   <script type="text/javascript">
