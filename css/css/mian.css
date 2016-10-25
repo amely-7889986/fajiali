@@ -434,6 +434,12 @@ input:-ms-input-placeholder {
 .h420 {
   height: 420px;
 }
+.h258 {
+  height: 258px;
+}
+.h388 {
+  height: 388px;
+}
 .pd4 {
   padding: 4px 0;
 }
@@ -675,6 +681,56 @@ input:-ms-input-placeholder {
 .bannerlay img {
   height: 98px;
 }
+.search-banner {
+  position: absolute;
+  left: 50%;
+  margin-left: -25%;
+  bottom: 74px;
+  height: 32px;
+}
+.search-banner input {
+  border: 4px solid #3e5184;
+  height: 20px;
+  line-height: 20px;
+  width: 240px;
+  outline: none;
+  float: left;
+  padding-left: 4px;
+}
+.search-banner .btn-searchbanner {
+  display: inline-block;
+  width: 97px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 10px;
+}
+.color-bai {
+  color: #fff;
+}
+.color-blue {
+  color: #3e5184;
+}
+.findlawer-banner {
+  background: url(../../update/findlaw-banner.jpg) center;
+}
+.perlawyer-banner {
+  background: url(../../update/lawyer-bg.jpg) center;
+}
+.user-info {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -550px;
+  width: 1040px;
+  height: 307px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.7);
+}
+.user-pic {
+  width: 179px;
+  height: 209px;
+}
 .news {
   position: relative;
   top: -420px;
@@ -754,10 +810,27 @@ input:-ms-input-placeholder {
   float: left;
   margin-right: 16px;
 }
+.column .col-big770 {
+  width: 770px;
+}
 .column .col-small {
   display: block;
   width: 356px;
   float: left;
+}
+.column .col-class {
+  display: block;
+  width: 300px;
+  float: left;
+  margin-right: 27px;
+}
+.column .col-class .btn-class {
+  width: 277px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  margin: 0 0 10px 0;
+  border-radius: 3px;
 }
 .column .col-lg {
   display: block;
@@ -822,6 +895,41 @@ input:-ms-input-placeholder {
   overflow: hidden;
 }
 .lawyerlist li .level i.star {
+  background: url(../../images/ic-star.png) left center no-repeat;
+  width: 8px;
+  height: 14px;
+  margin: 0 2px;
+  display: inline-block;
+}
+.lawyerlist-find li {
+  margin: 12px 11px 31px 3px;
+}
+.lawyerlist-info li {
+  display: block;
+  float: left;
+  width: 170px;
+  height: auto;
+  overflow: hidden;
+  margin: 12px 5px;
+}
+.lawyerlist-info li .pic {
+  width: 170px;
+  height: 190px;
+}
+.lawyerlist-info li .pic img {
+  border: none;
+}
+.lawyerlist-info li .level {
+  position: relative;
+  top: -203px;
+  float: right;
+  background: rgba(255, 255, 255, 0.4);
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  overflow: hidden;
+}
+.lawyerlist-info li .level i.star {
   background: url(../../images/ic-star.png) left center no-repeat;
   width: 8px;
   height: 14px;
@@ -1001,6 +1109,99 @@ input:-ms-input-placeholder {
 }
 .officelist li .notes span.num {
   float: right;
+}
+.officelist-find li {
+  margin: 0 13px;
+}
+.questionlist,
+.arealist {
+  padding: 12px 4px;
+}
+.questionlist a:hover,
+.arealist a:hover,
+.questionlist a:active,
+.arealist a:active {
+  text-decoration: underline;
+  color: #203671;
+}
+.questionlist a {
+  display: inline-block;
+  margin-right: 14px;
+  margin-bottom: 17px;
+  font-size: 14px;
+  color: #333;
+}
+.arealist li {
+  padding-bottom: 17px;
+}
+.arealist li a {
+  padding: 0 1px;
+}
+.user-list {
+  float: left;
+  padding: 0 10px;
+}
+.user-list li {
+  padding: 15px 20px;
+}
+.user-list li .btn-check {
+  width: 38px;
+  height: 19px;
+  line-height: 19px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.user-list li i.star {
+  background: url(../../images/star-big.png) left center no-repeat;
+  width: 18px;
+  height: 18px;
+  margin: 0 5px;
+  display: inline-block;
+}
+.btn-zixun {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btn-style {
+  border: 1px solid #172c65;
+  color: #fff;
+  background: #3e5184;
+  padding: 0;
+  text-align: center;
+  border-radius: 3px;
+}
+.lawyer-slilling {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+.lawyer-slilling h1 {
+  font-size: 24px;
+  color: #3e5184;
+  padding: 26px 0;
+}
+.slilling-class button {
+  border: 1px solid #172c65;
+  color: #fff;
+  background: #3e5184;
+  padding: 0;
+  text-align: center;
+  border-radius: 3px;
+  padding: 0 8px;
+  height: 25px;
+  margin-right: 22px;
+  line-height: 25px;
+  font-size: 12px;
+}
+.scroll-img {
+  padding: 12px 0;
+  width: 746px;
+  height: 571px;
 }
 .footer {
   display: block;
@@ -1259,6 +1460,78 @@ input:-ms-input-placeholder {
   color: #b5b9bc;
   margin-left: 8px;
 }
+.lawyer-intro {
+  line-height: 24px;
+  padding: 12px 0 24px 0;
+  color: #313131;
+}
+.sidebar {
+  width: 250px;
+  height: 350px;
+  background: #fff;
+  float: left;
+  margin-right: 27px;
+}
+.sidebar li a {
+  display: block;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+.sidebar a.active,
+.sidebar a:hover,
+.sidebar a:active {
+  background: #07245c;
+  color: #fff;
+}
+.column-r {
+  width: 823px;
+  background: #fff;
+  float: left;
+}
+.column-r .title {
+  font-size: 18px;
+  margin: 30px 0;
+  text-align: center;
+}
+.column-r .liucheng-info {
+  margin: 0 auto;
+  text-align: center;
+  color: #93999f;
+}
+.column-r .liucheng-info span {
+  display: inline-block;
+  text-align: center;
+  padding: 0 10px;
+  font-size: 12px;
+}
+.column-r .liucheng-info span i {
+  display: block;
+  height: 16px;
+  width: 16px;
+  float: left;
+  padding-left: 10px;
+}
+.column-r .liucheng-info span .ic-user {
+  background: url(../../images/ic-user.png) center center no-repeat;
+}
+.column-r .liucheng-info span .ic-time {
+  background: url(../../images/time.png) center center no-repeat;
+}
+.steps {
+  padding: 40px 20px 20px 20px;
+}
+.steps h2 {
+  padding-bottom: 10px;
+}
+.steps p {
+  padding: 10px 0;
+}
+.office-info {
+  padding: 12px;
+  line-height: 24px;
+}
 .parameter {
   display: block;
   overflow: hidden;
@@ -1468,4 +1741,270 @@ input:-ms-input-placeholder {
   text-overflow: ellipsis;
   -o-text-overflow: ellipsis;
   white-space: nowrap;
+}
+.h527 {
+  height: 527px;
+}
+.w315 {
+  width: 315px;
+}
+.mar10 {
+  margin-top: 10px;
+}
+.mar20 {
+  margin-top: 20px;
+}
+.m20 {
+  margin: 20px 0;
+}
+.p10 {
+  padding: 10px 0;
+}
+.post-r {
+  position: relative;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+.mar3 {
+  margin-right: -3px;
+}
+.border {
+  border: 1px solid #bdbdbd;
+}
+.register {
+  width: 335px;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 100px;
+  right: 107px;
+  top: 58px;
+}
+.register .login-box {
+  padding: 0 10px;
+}
+.register .login-box .login-title {
+  color: #313131;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #bdbdbd;
+  font-size: 18px;
+}
+.register .login-box .msg-box {
+  background: #fff6d2;
+  height: 24px;
+  border: 1px solid #ffe57d;
+  line-height: 24px;
+  font-size: 12px;
+}
+.register .login-box .msg-box .msg {
+  background: url(../../images/msg.png) no-repeat;
+  padding-left: 40px;
+  background-position: 10px;
+}
+.register .login-box .field {
+  height: 40px;
+  position: relative;
+}
+.register .login-box .field .input-box {
+  display: block;
+  width: 38px;
+  height: 38px;
+  background: #f3f3f3;
+  position: absolute;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #bdbdbd;
+}
+.register .login-box .field .username {
+  position: absolute;
+  left: 50px;
+  line-height: 40px;
+  color: #bdbdbd;
+}
+.register .login-box .register-box {
+  height: 30px;
+  margin-top: 10px;
+}
+.register .login-box .register-box .register-name {
+  display: inline-block;
+  width: 73px;
+  line-height: 30px;
+  text-align: right;
+  padding-right: 10px;
+  float: left;
+  font-size: 14px;
+  margin-right: -3px;
+}
+.register .login-box .register-box .register-input {
+  height: 26px;
+  width: 230px;
+  border: 1px solid #bdbdbd;
+  float: right;
+}
+.register .login-box .register-box .register-cel {
+  height: 26px;
+  width: 133px;
+  border: 1px solid #bdbdbd;
+  margin-left: 3px;
+}
+.register .login-box .register-box .get-code {
+  height: 30px;
+  width: 92px;
+  background: #203671;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+  float: right;
+  font-size: 12px;
+}
+.register .login-box .login-text {
+  width: 263px;
+  height: 36px;
+  padding-left: 50px;
+  border: 1px solid #bdbdbd;
+  font-size: 14px;
+}
+.register .login-box .btn {
+  display: block;
+  width: 315px;
+  height: 36px;
+  background: #203671;
+  text-align: center;
+  line-height: 36px;
+  color: #fff;
+  font-size: 18px;
+}
+.register .login-box .info-text {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+.register .login-box .btn-register {
+  float: right;
+  font-size: 14px;
+  height: 18px;
+  padding-left: 23px;
+  background: url(../../images/arrow-go.png) no-repeat;
+}
+.login {
+  width: 335px;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 100px;
+  right: 107px;
+}
+.login .login-box {
+  padding: 0 10px;
+}
+.login .login-box .login-title {
+  color: #313131;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #bdbdbd;
+  font-size: 18px;
+}
+.login .login-box .msg-box {
+  background: #fff6d2;
+  height: 24px;
+  border: 1px solid #ffe57d;
+  line-height: 24px;
+  font-size: 12px;
+}
+.login .login-box .msg-box .msg {
+  background: url(../../images/msg.png) no-repeat;
+  padding-left: 40px;
+  background-position: 10px;
+}
+.login .login-box .field {
+  height: 40px;
+  position: relative;
+}
+.login .login-box .field .input-box {
+  display: block;
+  width: 38px;
+  height: 38px;
+  background: #f3f3f3;
+  position: absolute;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #bdbdbd;
+}
+.login .login-box .field .username {
+  position: absolute;
+  left: 50px;
+  line-height: 40px;
+  color: #bdbdbd;
+}
+.login .login-box .register-box {
+  height: 30px;
+  margin-top: 10px;
+}
+.login .login-box .register-box .register-name {
+  display: inline-block;
+  width: 73px;
+  line-height: 30px;
+  text-align: right;
+  padding-right: 10px;
+  float: left;
+  font-size: 14px;
+  margin-right: -3px;
+}
+.login .login-box .register-box .register-input {
+  height: 26px;
+  width: 230px;
+  border: 1px solid #bdbdbd;
+  float: right;
+}
+.login .login-box .register-box .register-cel {
+  height: 26px;
+  width: 133px;
+  border: 1px solid #bdbdbd;
+  margin-left: 3px;
+}
+.login .login-box .register-box .get-code {
+  height: 30px;
+  width: 92px;
+  background: #203671;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+  float: right;
+  font-size: 12px;
+}
+.login .login-box .login-text {
+  width: 263px;
+  height: 36px;
+  padding-left: 50px;
+  border: 1px solid #bdbdbd;
+  font-size: 14px;
+}
+.login .login-box .btn {
+  display: block;
+  width: 315px;
+  height: 36px;
+  background: #203671;
+  text-align: center;
+  line-height: 36px;
+  color: #fff;
+  font-size: 18px;
+}
+.login .login-box .info-text {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+.login .login-box .btn-register {
+  float: right;
+  font-size: 14px;
+  height: 18px;
+  padding-left: 23px;
+  background: url(../../images/arrow-go.png) no-repeat;
 }
