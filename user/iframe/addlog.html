@@ -6,9 +6,7 @@
   <title>法加理网站</title>
   <meta name="keywords" content='有法律问题找法加理，一个互联网法律商城'/>
   <meta name="description" content='法加理网站是中国大型法律服务平台，互联网在线法律咨询模式创新者和领跑者，建立一个公平公开的法律服务平台，为公众争取更大利益，专业帮助公众寻解决法律问题，提供最专业的律师意见和诉讼服务。' />
-  <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico"/>
-  <link rel="stylesheet" href="../css/css/mian.css">
-  <link rel="stylesheet" href="../css/css/swiper.css">
+  <link rel="stylesheet" href="../../css/css/mian.css">
   <!--[if lte IE 6]>
   <script src="js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
   <script type="text/javascript">
@@ -21,5 +19,50 @@
   <![endif]-->
 </head>
 <body>
+  <div class="iframe-box">
+    <div class="pop-form">
+      <div class="fillform">
+        <label for="number" class="w60">时间：</label>
+        <input type="text" class="l-left w80 mr10" placeholder="开始时间" id="start" onclick="laydate()">
+        <input type="text" class="l-left w80" placeholder="结束时间" id="end" onclick="laydate()">
+      </div>
+      <div class="fillform">
+        <label for="dailyinfo" class="w60">内容：</label>
+        <textarea name="dailyinfo" id="" cols="30" rows="10"></textarea>
+      </div>
+      <a href="javascript:void(0)" class="submit">添加日志</a>
+    </div>
+  </div>
+
+
+  <script src="../../js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../js/laydate.js"></script>
+  <script>
+    var start = {
+      elem: '#start',
+      format: 'YYYY/MM/DD hh:mm:ss',
+      min: laydate.now(), //设定最小日期为当前日期
+      max: '2099-06-16 23:59:59', //最大日期
+      istime: true,
+      istoday: false,
+      choose: function(datas){
+         end.min = datas; //开始日选好后，重置结束日的最小日期
+         end.start = datas //将结束日的初始值设定为开始日
+      }
+    };
+    var end = {
+      elem: '#end',
+      format: 'YYYY/MM/DD hh:mm:ss',
+      min: laydate.now(),
+      max: '2099-06-16 23:59:59',
+      istime: true,
+      istoday: false,
+      choose: function(datas){
+        start.max = datas; //结束日选好后，重置开始日的最大日期
+      }
+    };
+    laydate(start);
+    laydate(end);
+  </script>
 </body>
 </html>

@@ -449,6 +449,18 @@ input:-ms-input-placeholder {
 .w810 {
   width: 810px;
 }
+.w60 {
+  width: 60px !important;
+}
+.w180 {
+  width: 180px;
+}
+.w120 {
+  width: 120px;
+}
+.w80 {
+  width: 80px;
+}
 .h420 {
   height: 420px;
 }
@@ -2267,15 +2279,19 @@ input:-ms-input-placeholder {
   border-bottom: 1px solid #ddd;
   line-height: 18px;
 }
-.userbox table.table td a {
-  vertical-align: middle;
+.userbox table.table td a.clickbtn {
+  display: inline-block;
   margin: 0 18px;
+  vertical-align: middle;
 }
 .userbox table.table td img {
   width: 100%;
 }
 .userbox table.table tr:hover {
   background: #e6e6e6;
+}
+.userbox table.table tr.allread:hover {
+  background: none;
 }
 .usertab {
   display: block;
@@ -2640,10 +2656,15 @@ input:-ms-input-placeholder {
   float: left;
   text-align: right;
 }
-.u-form .fillform input {
+.u-form .fillform input[type="text"] {
   float: left;
   height: 20px;
   margin-top: 10px;
+}
+.u-form .fillform input[type="checkbox"] {
+  float: left;
+  margin-left: 100px;
+  margin-top: 16px;
 }
 .u-form .fillform select {
   float: left;
@@ -2669,6 +2690,10 @@ input:-ms-input-placeholder {
   height: 46px;
   line-height: 46px;
 }
+.u-form .fillform span a:hover {
+  color: #203671;
+  text-decoration: underline;
+}
 .u-form .prompt {
   display: block;
   overflow: hidden;
@@ -2684,6 +2709,82 @@ input:-ms-input-placeholder {
   padding: 8px 18px;
   margin-left: 100px;
   margin-top: 12px;
+}
+.iframe-box {
+  display: block;
+  overflow: hidden;
+  padding: 8px 12px;
+}
+.pop-form {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.pop-form .fillform {
+  display: block;
+  overflow: hidden;
+  line-height: 34px;
+  margin: 12px;
+}
+.pop-form .fillform label {
+  color: #f06e00;
+  font-size: 16px;
+  float: left;
+  height: 34px;
+  text-align: right;
+}
+.pop-form .fillform select {
+  height: 34px;
+  width: 180px;
+  float: left;
+}
+.pop-form .fillform input[type="text"] {
+  height: 28px;
+  float: left;
+}
+.pop-form .fillform input[type="checkbox"] {
+  height: 28px;
+  float: left;
+}
+.pop-form .fillform a.identcode {
+  width: 60px;
+  height: 34px;
+  padding: 0 18px;
+  background-color: #203671;
+  color: #fff;
+  float: left;
+  margin-left: 12px;
+}
+.pop-form .fillform a {
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  width: 46%;
+  margin: 0 2% 0 0;
+  text-align: center;
+}
+.pop-form .fillform textarea {
+  display: block;
+  overflow: hidden;
+}
+.pop-form .fillform > span {
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+  text-indent: 8px;
+}
+.pop-form a.submit {
+  display: block;
+  overflow: hidden;
+  padding: 12px 18px;
+  color: #fff;
+  background-color: #f06e00;
+  margin: 18px 12px;
+  text-align: center;
+}
+.whalf {
+  width: 46%;
+  margin: 0 2% 0 0;
 }
 .h527 {
   height: 527px;

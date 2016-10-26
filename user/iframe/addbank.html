@@ -22,19 +22,38 @@
   <div class="iframe-box">
     <div class="pop-form">
       <div class="fillform">
-        <label for="number" class="w120">输入新密码：</label>
+        <label for="count" class="w80">账户类型：</label>
+        <select name="count" id="">
+          <option value="选择分类">选择分类</option>
+          <option value="银行卡">银行卡</option>
+          <option value="身份证">身份证</option>
+        </select>
+      </div>
+      <div class="fillform">
+        <label for="bank" class="w80">开卡银行：</label>
+        <select name="bank" id="">
+          <option value="招商银行">招商银行</option>
+          <option value="建设银行">建设银行</option>
+          <option value="工商银行">工商银行</option>
+        </select>
+      </div>
+      <div class="fillform">
+        <label for="number" class="w80">银行卡号：</label>
         <input type="text" class="w180">
       </div>
       <div class="fillform">
-        <label for="phone" class="w120">预留手机：</label>
+        <label for="phone" class="w80">预留手机：</label>
         <input type="text" class="w120">
         <a href="javascript:void(0)" class="identcode">获取验证码</a>
       </div>
       <div class="fillform">
-        <label for="identcode" class="w120">验证码：</label>
+        <label for="identcode" class="w80">验证码：</label>
         <input type="text" class="w180">
       </div>
-      <a href="javascript:void(0)" class="submit">立即修改</a>
+      <div class="fillform">
+        <a href="javascript:void(0)" class="bg-dblue">立即绑定</a>
+        <a href="javascript:void(0)" class="bg-cheng">我再想想</a>
+      </div>
     </div>
   </div>
 </body>
