@@ -19,53 +19,149 @@
   <!--[if lt IE 9]>
   <script type="text/javascript" src="http://apps.bdimg.com/libs/html5shiv/r29/html5.min.js"></script>
   <![endif]-->
+
+  <!--[if lt IE 9]>
+   <style type="text/css">
+   .user-info {
+       background:transparent;
+       filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2ffffff,endColorstr=#B2ffffff);
+       zoom: 1;
+    }
+    </style>
+<![endif]-->
 </head>
 <body>
+  <div class="container tophead bg-dblue">
+    <div class="main" style="overflow:hidden;position:relative;">
+      <div class="l-left w300">
+        <a href="##" class="link-app">手机法加理</a>
+        <a href="##" class="link-wechat">微信公众号</a>
+        <div class="codeshow code1" id="code1">
+          <div class="img">
+            <img src="images/qrcode_for_gh_fe1fadbb50d9_1280.jpg" alt="">
+          </div>
+        </div>
+        <div class="codeshow code2" id="code2">
+          <div class="img">
+            <img src="images/qrcode_for_gh_fe1fadbb50d9_1280.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="l-right w640">
+        <span>您好，欢迎来到法加理！</span>
+        <a href="login.html" class="login">登录</a>
+        <a href="signup.html" class="sign">注册</a>
+        <a href="#">我的客户</a>
+        <a href="#">订单中心</a>
+        <a href="#">个人中心</a>
+        <a href="#">帮助中心</a>
+        <a href="#">网站导航</a>
+      </div>
+    </div>
+  </div>
   <div class="container bg-bai head">
     <div class="main">
       <div class="logo l-left"><img src="images/logo.png" alt=""></div>
+      <div class="w340 l-right searchbox">
+        <input type="text">
+        <a href="#" class="searchbtn">搜索</a>
+      </div>
     </div>
   </div>
+  <div class="container nav">
+    <ul class="main">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="media.html">法律节目</a></li>
+      <li><a href="page.html">法律资讯</a></li>
+      <li><a href="findlaw.html" class="active">找律师</a></li>
+      <li><a href="about.html">关于我们</a></li>
+      <li><a href="cooperate.html">合作需求中心</a></li>
+    </ul>
+  </div>
 
-  <div class="container h527 login-banner" >
-    <div class="main post-r">
-      <div class="login">
-        <div class="login-box w315">
-          <div class="login-title">用户登录</div>
-          <div class="msg-box mar10">
-            <span class="msg">公共场所不建议自动登录，以防账号丢失</span>
-          </div>
-          <form class="mar10 ">
-            <div class="field">
-              <label class="input-box">
-                <i><img src="images/user.png" alt=""></i>
-              </label>
-              <input type="text"  class="login-text " name="user" value="邮箱/用户名/已验证手机" onFocus="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999"/> 
-            </div>
-            <div class="field mar20">
-              <label class="input-box">
-                <i><img src="images/password.png" alt=""></i>
-              </label>
-              <input type="password"   class="login-text " name="pwd" value="密码" onFocus="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999" /> 
-            </div>
-            <div class="login-links mar20">
-              <label><input name="Fruit" type="checkbox" value="" /><a href="">自动登录</a> </label> 
-              
-              <a href="" class="fr">忘记密码</a>
-            </div>
-            <a class="btn mar10">登录</a>
-          </form>
-          <div class="login-info ">
-            <p class="info-text fl">完成登录之后即可获取海量律师人才<br>资源,帮助您解决你身边的法律难题</p>
-            <div class="btn-register m20"><a href="register.html">立即注册</a></div>
+  <div class="container l-float h388 post-r">
+    <div class="perlawyer-banner h388">
+    </div>
+    <div class="user-info">
+      <div class="user-pic l-left">
+        <img src="update/user-pic1.png" height="209" width="179">
+      </div>
+      <div class="user-detail l-left">
+        <ul class="user-list">
+          <li>刘雄滔律师</li>
+          <li>执业证号：14401201410053674</li>
+          <li>联系地址：机场路石柱岭大街自编999号<br>双达商务中心三楼303</li>
+          <button class="btn-zixun btn-style">立即咨询</button>
+        </ul>
+        <ul class="user-list">
+          <li>地区：广东省 广州市</li>
+          <li>执业机构：广东和志满律师事务所</li>
+          <li class="l-left">好评度：<div class="level l-right"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></div></li>
+        </ul>
+        <ul class="user-list">
+          <li><span>手机：132468****9</span>
+            <button id="show" class="btn-check btn-style">查看</button></li>
+          <li>分类：资深律师</li>
+        </ul>
+
+      </div>
+      <div class="lawyer-slilling l-left">
+        <h1>专长领域</h1>
+        <div class="slilling-class">
+          <button>企业法律顾问</button><button>婚姻家庭</button><button>刑事辩护</button><button>企业法律顾问</button><button>人身损害赔偿</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="main l-float ">
+    <div class="page mtb24">
+      <div class="w810 l-left mr24">
+        <div class="pagetab">
+          <ul>
+            <li><a href="javascript:void(0)" class="active">个人介绍</a></li>
+          </ul>
+        </div>
+        <p class="lawyer-intro">刘雄滔律师，专职律师，执业于广东和志满律师事务所，2011年通过国家司法考试，资格证号：A 20114409814118，曾担任广
+州市白云区社区法律顾问、佛山生活网、广州某化妆品公司、鞋业公司、物业公司、物流公司、塑胶制品公司等单位法律顾问，成
+功地处理了大量白云区本地婚姻案件、劳动工伤案件、刑事案件、交通事故、人身损害案件、债权催收等诉讼、调解案件，取得良
+好的代理效果。刘律师专注于诉讼实务研究，靠实力立足，有丰富的诉讼实务经验，系实战型律师。刘律师提倡精品化诉讼理念，
+注重客户体验，真诚服务，兢兢业业，无负所托。刘律师创立个人微信公众号：APPlaw，发表大量原创文章及亲办案例，欢迎关
+注。刘律师系找法网认证律师，法律问题可一对一留言咨询或添加刘律师微信好友：13246814189寻求帮助，咨询律师请说明来
+自f法加理，较为复杂的法律问题可以添加刘律师微信协议付费咨询。      </p>
+      </div>
+      <div class="w242 l-left">
+        <div class="sidelist">
+          <div class="tit">成功案例</div>
+          <ul class="list mb20">
+            <li>
+              <a href="pageinfo.html" class="hotlist">2016年代理顾问单位诉讼案件</a>
+              <p><span>2016-9-18</span><span>3232浏览</span></p>
+            </li>
+            <li>
+              <a href="pageinfo.html" class="hotlist">2016年代理的诉讼案件</a>
+              <p><span>2016-9-17</span><span>2232浏览</span></p>
+            </li>
+            <li>
+              <a href="pageinfo.html" class="hotlist">2015年经办的交通事故诉讼案件</a>
+              <p><span>2016-9-17</span><span>2232浏览</span></p>
+            </li>
+            <li>
+              <a href="pageinfo.html" class="hotlist">刘律师2014年代理的婚姻诉讼案 </a>
+              <p><span>2016-9-16</span><span>3232浏览</span></p>
+            </li>
+            <li>
+              <a href="pageinfo.html" class="hotlist">刘律师2014年经办顾问单位劳资纠纷诉</a>
+              <p><span>2016-9-16</span><span>3232浏览</span></p>
+            </li>
+          </ul>
           </div>
         </div>
       </div>
     </div>
-
-  </div>
-
     
+
+
   <div class="container l-float">
     <div class="footer">
       <div class="main">
@@ -174,6 +270,7 @@
       spaceBetween: 30
     });
   </script>
+
 
 </body>
 </html>

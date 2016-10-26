@@ -39,7 +39,7 @@
       </div>
       <div class="l-right w640">
         <span>您好，欢迎来到法加理！</span>
-        <a href="login.html" class="">登录</a>
+        <a href="login.html" class="login">登录</a>
         <a href="signup.html" class="sign">注册</a>
         <a href="#">我的客户</a>
         <a href="#">订单中心</a>
@@ -60,18 +60,17 @@
   </div>
   <div class="container nav">
     <ul class="main">
-      <li><a href="index.html" class="active">首页</a></li>
+      <li><a href="index.html">首页</a></li>
       <li><a href="media.html">法律节目</a></li>
       <li><a href="page.html">法律资讯</a></li>
-      <li><a href="findlaw.html">找律师</a></li>
+      <li><a href="findlaw.html" class="active">找律师</a></li>
       <li><a href="about.html">关于我们</a></li>
       <li><a href="cooperate.html">合作需求中心</a></li>
     </ul>
   </div>
 
   <div class="container l-float h258 post-r">
-    <div class="banner h258">
-      <img src="update/findlaw-banner.jpg" height="258" width="1600" alt=""/>
+    <div class="findlawer-banner h258">
     </div>
     <div class="search-banner">
       <input type="text" placeholder="问题关键字">
@@ -306,6 +305,17 @@
 
   <script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+  <!-- banner滚动 -->
+  <script src="js/swiper.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      spaceBetween: 30
+    });
+  </script>
 
   <!-- 二维码弹出 -->
   <script type="text/javascript">
@@ -324,5 +334,8 @@
       });
     });
   </script>
+
+  
+
 </body>
 </html>

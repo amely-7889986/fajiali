@@ -470,6 +470,9 @@ input:-ms-input-placeholder {
 .w770 {
   width: 770px;
 }
+.h388 {
+  height: 388px;
+}
 .pd4 {
   padding: 4px 0;
 }
@@ -770,6 +773,29 @@ input:-ms-input-placeholder {
 .color-blue {
   color: #3e5184;
 }
+.findlawer-banner {
+  background: url(../../update/findlaw-banner.jpg) center;
+}
+.perlawyer-banner {
+  background: url(../../update/lawyer-bg.jpg) center;
+}
+.user-info {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -550px;
+  width: 1040px;
+  height: 307px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.7);
+}
+.user-pic {
+  width: 179px;
+  height: 209px;
+}
+.login-banner {
+  background: url(../../update/login-bg.png) center;
+}
 .news {
   position: relative;
   top: -420px;
@@ -943,6 +969,39 @@ input:-ms-input-placeholder {
 }
 .lawyerlist-find li {
   margin: 12px 11px 31px 3px;
+}
+.lawyerlist-info li {
+  display: block;
+  float: left;
+  width: 170px;
+  height: auto;
+  overflow: hidden;
+  margin: 12px 5px;
+}
+.lawyerlist-info li .pic {
+  width: 170px;
+  height: 190px;
+}
+.lawyerlist-info li .pic img {
+  border: none;
+}
+.lawyerlist-info li .level {
+  position: relative;
+  top: -203px;
+  float: right;
+  background: rgba(255, 255, 255, 0.4);
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  overflow: hidden;
+}
+.lawyerlist-info li .level i.star {
+  background: url(../../images/ic-star.png) left center no-repeat;
+  width: 8px;
+  height: 14px;
+  margin: 0 2px;
+  display: inline-block;
+  background-size: 100%;
 }
 .dynamic {
   display: block;
@@ -1144,6 +1203,72 @@ input:-ms-input-placeholder {
 }
 .arealist li a {
   padding: 0 1px;
+}
+.user-list {
+  float: left;
+  padding: 0 10px;
+}
+.user-list li {
+  padding: 15px 20px;
+}
+.user-list li .btn-check {
+  width: 38px;
+  height: 19px;
+  line-height: 19px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.user-list li i.star {
+  background: url(../../images/star-big.png) left center no-repeat;
+  width: 18px;
+  height: 18px;
+  margin: 0 5px;
+  display: inline-block;
+}
+.btn-zixun {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btn-style {
+  border: 1px solid #172c65;
+  color: #fff;
+  background: #3e5184;
+  padding: 0;
+  text-align: center;
+  border-radius: 3px;
+}
+.lawyer-slilling {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+.lawyer-slilling h1 {
+  font-size: 24px;
+  color: #3e5184;
+  padding: 26px 0;
+}
+.slilling-class button {
+  border: 1px solid #172c65;
+  color: #fff;
+  background: #3e5184;
+  padding: 0;
+  text-align: center;
+  border-radius: 3px;
+  padding: 0 8px;
+  height: 25px;
+  margin-right: 22px;
+  line-height: 25px;
+  font-size: 12px;
+}
+.scroll-img {
+  padding: 12px 0;
+  width: 746px;
+  height: 571px;
 }
 .footer {
   display: block;
@@ -1528,6 +1653,78 @@ input:-ms-input-placeholder {
   color: #333;
   margin-bottom: 4px;
   width: 720px;
+}
+.lawyer-intro {
+  line-height: 24px;
+  padding: 12px 0 24px 0;
+  color: #313131;
+}
+.sidebar {
+  width: 250px;
+  height: 350px;
+  background: #fff;
+  float: left;
+  margin-right: 27px;
+}
+.sidebar li a {
+  display: block;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+.sidebar a.active,
+.sidebar a:hover,
+.sidebar a:active {
+  background: #07245c;
+  color: #fff;
+}
+.column-r {
+  width: 823px;
+  background: #fff;
+  float: left;
+}
+.column-r .title {
+  font-size: 18px;
+  margin: 30px 0;
+  text-align: center;
+}
+.column-r .liucheng-info {
+  margin: 0 auto;
+  text-align: center;
+  color: #93999f;
+}
+.column-r .liucheng-info span {
+  display: inline-block;
+  text-align: center;
+  padding: 0 10px;
+  font-size: 12px;
+}
+.column-r .liucheng-info span i {
+  display: block;
+  height: 16px;
+  width: 16px;
+  float: left;
+  padding-left: 10px;
+}
+.column-r .liucheng-info span .ic-user {
+  background: url(../../images/ic-user.png) center center no-repeat;
+}
+.column-r .liucheng-info span .ic-time {
+  background: url(../../images/time.png) center center no-repeat;
+}
+.steps {
+  padding: 40px 20px 20px 20px;
+}
+.steps h2 {
+  padding-bottom: 10px;
+}
+.steps p {
+  padding: 10px 0;
+}
+.office-info {
+  padding: 12px;
+  line-height: 24px;
 }
 .parameter {
   display: block;
@@ -2786,6 +2983,203 @@ input:-ms-input-placeholder {
   width: 46%;
   margin: 0 2% 0 0;
 }
+.workneed .case-add {
+  height: auto;
+  overflow: hidden;
+}
+.workneed .case-add .add-deta {
+  width: 1010px;
+}
+.workneed .case-add > span {
+  font-weight: normal !important;
+}
+.workneed .case-add span {
+  margin-right: 15px !important;
+  font-weight: bold;
+}
+.workneed .case-add span:first-child {
+  margin-right: 4px !important;
+  color: #2c3444 !important;
+}
+.workneed .case-add span a {
+  margin: 0 5px !important;
+  color: #2c3444 !important;
+  font-weight: normal;
+}
+.workneed .case-add span a:hover {
+  color: #fff !important;
+}
+.workneed .bid {
+  clear: both;
+}
+.work-list .table {
+  width: 100%;
+  border: 1px solid #ddd;
+  /*padding: 0 12px;*/
+  background: #fff;
+}
+.work-list .table tr {
+  cursor: pointer;
+}
+.work-list .table tr:hover {
+  background: #e7e7e7;
+}
+.work-list .table tr:hover td:first-child {
+  color: #203670;
+  text-decoration: underline;
+}
+.work-list .table tr:hover:first-child {
+  cursor: default;
+  background: #fff;
+}
+.work-list .table tr th {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 8px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.work-list .table tr th:first-child {
+  text-align: left;
+}
+.work-list .table tr td {
+  height: 60px;
+  line-height: 20px;
+  border-top: 1px solid #ddd;
+  padding: 0 8px;
+  text-align: center;
+  overflow: hidden;
+}
+.work-list .table tr td:first-child {
+  width: 30%;
+  overflow: hidden;
+  text-align: left;
+}
+.work-list .table tr .t-price {
+  color: #ea463b;
+}
+.work-list .table tr .t-bid {
+  color: #04c191;
+}
+.work-list .table tr .t-urgent {
+  color: #9f6fec;
+}
+.work-list .table tr .t-emergen {
+  color: #3f9ff0;
+}
+.ta-pagenum {
+  margin: 0 0 24px 0;
+  padding: 18px 0 24px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+.wn-deta {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+.wn-deta .tit-box {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px 0 8px;
+  box-sizing: border-box;
+}
+.wn-deta .tit-box h2 {
+  font-size: 18px;
+}
+.wn-deta .tit-box a {
+  display: inline-block;
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  background: #203670;
+  color: #fff;
+  margin-top: 7px;
+}
+.wn-deta .con {
+  border-top: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.wn-deta .con .case-deta {
+  width: 800px;
+  padding-top: 20px;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.wn-deta .con .case-deta .case-info {
+  padding: 0 20px 25px 8px;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.wn-deta .con .case-deta .case-info h3 {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+.wn-deta .con .case-deta .case-info .cate {
+  display: inline-block;
+  width: 32%;
+  margin-top: 15px;
+}
+.wn-deta .con .case-deta .case-info .cate .c-time-h {
+  margin-left: 10px;
+}
+.wn-deta .con .case-deta .case-info .p-left {
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+.wn-deta .con .case-deta .case-info .desc {
+  margin-top: 20px;
+  line-height: 20px;
+}
+.wn-deta .con .case-deta .case-info .desc p {
+  width: 701px;
+}
+.wn-deta .con .case-deta .bid-record .con-box {
+  padding: 10px 0 20px 0;
+  border-top: 1px solid #ddd;
+}
+.wn-deta .con .case-deta .bid-record .con-box .bid-info {
+  line-height: 28px;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+.wn-deta .con .case-deta .bid-record .con-box .bid-info div {
+  width: 25%;
+}
+.wn-deta .con .bid-pub {
+  width: 300px;
+}
+.wn-deta .con .bid-pub .bid-tit {
+  border-bottom: 1px solid #ddd;
+}
+.wn-deta .con .bid-pub .bid-mid {
+  margin-top: 20px;
+}
+.wn-deta .con .bid-pub .bid-mid .wn-pic {
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+.wn-deta .con .bid-pub .bid-mid .law-info {
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+.wn-deta .con .bid-pub .bid-mid .law-info div {
+  margin-top: 25px;
+}
+.wn-deta .con .bid-pub .bid-mid .law-info div:first-child {
+  margin-top: 0;
+}
+.wn-deta .con .bid-pub .wn-practice {
+  padding-left: 12px;
+  margin-top: 25px;
+}
+.wn-deta .con .bid-pub .wn-practice .mar-t {
+  margin-top: 20px;
+}
 .h527 {
   height: 527px;
 }
@@ -3051,201 +3445,4 @@ input:-ms-input-placeholder {
   height: 18px;
   padding-left: 23px;
   background: url(../../images/arrow-go.png) no-repeat;
-}
-.workneed .case-add {
-  height: auto;
-  overflow: hidden;
-}
-.workneed .case-add .add-deta {
-  width: 1010px;
-}
-.workneed .case-add > span {
-  font-weight: normal !important;
-}
-.workneed .case-add span {
-  margin-right: 15px !important;
-  font-weight: bold;
-}
-.workneed .case-add span:first-child {
-  margin-right: 4px !important;
-  color: #2c3444 !important;
-}
-.workneed .case-add span a {
-  margin: 0 5px !important;
-  color: #2c3444 !important;
-  font-weight: normal;
-}
-.workneed .case-add span a:hover {
-  color: #fff !important;
-}
-.workneed .bid {
-  clear: both;
-}
-.work-list .table {
-  width: 100%;
-  border: 1px solid #ddd;
-  /*padding: 0 12px;*/
-  background: #fff;
-}
-.work-list .table tr {
-  cursor: pointer;
-}
-.work-list .table tr:hover {
-  background: #e7e7e7;
-}
-.work-list .table tr:hover td:first-child {
-  color: #203670;
-  text-decoration: underline;
-}
-.work-list .table tr:hover:first-child {
-  cursor: default;
-  background: #fff;
-}
-.work-list .table tr th {
-  height: 50px;
-  line-height: 50px;
-  padding: 0 8px;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-}
-.work-list .table tr th:first-child {
-  text-align: left;
-}
-.work-list .table tr td {
-  height: 60px;
-  line-height: 20px;
-  border-top: 1px solid #ddd;
-  padding: 0 8px;
-  text-align: center;
-  overflow: hidden;
-}
-.work-list .table tr td:first-child {
-  width: 30%;
-  overflow: hidden;
-  text-align: left;
-}
-.work-list .table tr .t-price {
-  color: #ea463b;
-}
-.work-list .table tr .t-bid {
-  color: #04c191;
-}
-.work-list .table tr .t-urgent {
-  color: #9f6fec;
-}
-.work-list .table tr .t-emergen {
-  color: #3f9ff0;
-}
-.ta-pagenum {
-  margin: 0 0 24px 0;
-  padding: 18px 0 24px;
-  background: #fff;
-  border: 1px solid #ddd;
-  border-top: none;
-}
-.wn-deta {
-  margin-top: 15px;
-  margin-bottom: 30px;
-  border: 1px solid #ddd;
-  background: #fff;
-}
-.wn-deta .tit-box {
-  height: 50px;
-  line-height: 50px;
-  padding: 0 15px 0 8px;
-  box-sizing: border-box;
-}
-.wn-deta .tit-box h2 {
-  font-size: 18px;
-}
-.wn-deta .tit-box a {
-  display: inline-block;
-  width: 100px;
-  height: 36px;
-  line-height: 36px;
-  text-align: center;
-  background: #203670;
-  color: #fff;
-  margin-top: 7px;
-}
-.wn-deta .con {
-  border-top: 1px solid #ddd;
-  box-sizing: border-box;
-}
-.wn-deta .con .case-deta {
-  width: 800px;
-  padding-top: 20px;
-  border-right: 1px solid #ddd;
-  box-sizing: border-box;
-}
-.wn-deta .con .case-deta .case-info {
-  padding: 0 20px 25px 8px;
-  border-bottom: 1px solid #ddd;
-  box-sizing: border-box;
-}
-.wn-deta .con .case-deta .case-info h3 {
-  font-size: 18px;
-  padding-bottom: 5px;
-}
-.wn-deta .con .case-deta .case-info .cate {
-  display: inline-block;
-  width: 32%;
-  margin-top: 15px;
-}
-.wn-deta .con .case-deta .case-info .cate .c-time-h {
-  margin-left: 10px;
-}
-.wn-deta .con .case-deta .case-info .p-left {
-  padding-left: 30px;
-  box-sizing: border-box;
-}
-.wn-deta .con .case-deta .case-info .desc {
-  margin-top: 20px;
-  line-height: 20px;
-}
-.wn-deta .con .case-deta .case-info .desc p {
-  width: 701px;
-}
-.wn-deta .con .case-deta .bid-record .con-box {
-  padding: 10px 0 20px 0;
-  border-top: 1px solid #ddd;
-}
-.wn-deta .con .case-deta .bid-record .con-box .bid-info {
-  line-height: 28px;
-  padding: 0 8px;
-  box-sizing: border-box;
-}
-.wn-deta .con .case-deta .bid-record .con-box .bid-info div {
-  width: 25%;
-}
-.wn-deta .con .bid-pub {
-  width: 300px;
-}
-.wn-deta .con .bid-pub .bid-tit {
-  border-bottom: 1px solid #ddd;
-}
-.wn-deta .con .bid-pub .bid-mid {
-  margin-top: 20px;
-}
-.wn-deta .con .bid-pub .bid-mid .wn-pic {
-  padding-left: 12px;
-  box-sizing: border-box;
-}
-.wn-deta .con .bid-pub .bid-mid .law-info {
-  padding-left: 15px;
-  box-sizing: border-box;
-}
-.wn-deta .con .bid-pub .bid-mid .law-info div {
-  margin-top: 25px;
-}
-.wn-deta .con .bid-pub .bid-mid .law-info div:first-child {
-  margin-top: 0;
-}
-.wn-deta .con .bid-pub .wn-practice {
-  padding-left: 12px;
-  margin-top: 25px;
-}
-.wn-deta .con .bid-pub .wn-practice .mar-t {
-  margin-top: 20px;
 }
