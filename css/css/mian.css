@@ -515,6 +515,9 @@ input:-ms-input-placeholder {
 .pdt10 {
   padding-top: 10px;
 }
+.pd8 {
+  padding: 8px !important;
+}
 .mt10 {
   margin-top: 10px;
 }
@@ -968,6 +971,8 @@ input:-ms-input-placeholder {
   top: -132px;
   float: right;
   background: rgba(255, 255, 255, 0.4);
+  background: #fff\9;
+  filter: alpha(opacity=80);
   display: inline-block;
   height: 14px;
   line-height: 14px;
@@ -975,11 +980,18 @@ input:-ms-input-placeholder {
 }
 .lawyerlist li .level i.star {
   background: url(../../images/ic-star.png) left center no-repeat;
+  background: none\9;
   width: 8px;
   height: 14px;
   margin: 0 2px;
   background-size: 100%;
   display: inline-block;
+  float: left;
+}
+.lawyerlist li .level i.star img {
+  width: 100%;
+  vertical-align: top;
+  margin-top: 3px;
 }
 .lawyerlist-find li {
   margin: 12px 11px 31px 3px;
@@ -1004,6 +1016,7 @@ input:-ms-input-placeholder {
   top: -203px;
   float: right;
   background: rgba(255, 255, 255, 0.4);
+  background: #fff\9;
   display: inline-block;
   height: 14px;
   line-height: 14px;
@@ -1011,11 +1024,17 @@ input:-ms-input-placeholder {
 }
 .lawyerlist-info li .level i.star {
   background: url(../../images/ic-star.png) left center no-repeat;
+  background: none\9;
   width: 8px;
   height: 14px;
   margin: 0 2px;
   display: inline-block;
   background-size: 100%;
+}
+.lawyerlist-info li .level i.star img {
+  width: 100%;
+  vertical-align: top;
+  margin-top: 3px;
 }
 .dynamic {
   display: block;
@@ -1974,6 +1993,8 @@ input:-ms-input-placeholder {
   position: relative;
   top: -30px;
   background: rgba(0, 0, 0, 0.5);
+  background: #000\9;
+  filter: alpha(opacity=80);
   color: #fff;
   padding: 0 12px;
   overflow: hidden;
@@ -2034,6 +2055,8 @@ input:-ms-input-placeholder {
   height: 160px;
   float: left;
   background: rgba(0, 0, 0, 0.5);
+  background: #000\9;
+  filter: alpha(opacity=60);
   color: #f0f0f0;
 }
 .boxlist .vedioli .vediomask > a img {
@@ -2092,6 +2115,8 @@ input:-ms-input-placeholder {
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
   transition: top .5s;
+  background: #000\9;
+  filter: alpha(opacity=80);
 }
 .boxlist .vedioitem .iteminner .iteminfo h3.title {
   height: 40px;
